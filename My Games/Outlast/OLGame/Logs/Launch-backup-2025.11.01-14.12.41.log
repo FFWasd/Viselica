@@ -1,0 +1,374 @@
+Log: Log file open, 11/01/25 14:01:21
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12046
+Init: Compiled (64-bit - Shipping): Apr 29 2014 14:14:59
+Init: Changelist: 22533
+Init: Command line: -installed -seekfreeloadingpcconsole
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\Outlast\Binaries\Win64\
+Init: Executable: OLGame
+[0000.56] Init: Computer: TUFAK
+[0000.56] Init: User: vadim
+[0000.56] Init: CPU Page size=4096, Processors=12
+[0000.56] Init: High frequency timer resolution =10.000000 MHz
+[0000.56] Init: Memory total: Physical=15.6GB (15GB approx) Pagefile=21.6GB Virtual=131072.0GB
+[0000.62] Log: Steam Client API initialized 1
+[0000.71] Log: Steam Game Server API initialized 1
+[0000.71] Init: Presizing for 33476 objects not considered by GC, pre-allocating 0 bytes.
+[0000.71] Init: Object subsystem initialized
+[0000.71] Log: CachePaths() took 0.00 Seconds
+[0001.61] Log: Using D3D9 device (0): NVIDIA GeForce RTX 3050 6GB Laptop GPU
+[0001.61] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.63] Log: PhysX GPU Support: DISABLED
+[0003.75] Log: 60396 objects as part of root set at end of initial load.
+[0003.75] Log: 0 out of 0 bytes used by permanent object pool.
+[0003.75] Log: Initializing Engine...
+[0003.76] Log: Wwise(R) SDK Version 2013.2.3 Build 4833. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0004.90] Log: Initializing Steamworks
+[0004.92] Log: Logged in as 'Run >BAN40'
+[0004.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0004.93] Warning: Warning, Failed to find object 'Class None.'
+[0004.93] Log: ## DLC owned: 1, steam installed: 0
+[0004.93] Log: DLC not installed.
+[0004.95] Log: LoadMap: Intro_Persistent?Name=Player?Team=255
+[0004.96] Warning: Warning, Failed to compile Material Instance Asylum_post_process.PostUber.PostUberNoise with Base DefaultMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0004.96] Log: Game class is 'OLGame'
+[0004.97] Log: Primary PhysX scene will be in software.
+[0004.97] Log: Creating Primary PhysX Scene.
+[0004.97] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0004.97] Log: Bringing World Intro_Persistent.TheWorld up for play (0) at 2025.11.01-14.01.25
+[0004.98] Log: Bringing up level for play took: 0.004529
+[0004.98] Error: Can't start an online game that hasn't been created
+[0005.03] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0005.03] Log: ########### Finished loading level: 0.077289 seconds
+[0005.03] Log: Flushing async loaders.
+[0005.06] Log: Flushed async loaders.
+[0005.06] Log: Initializing Engine Completed
+[0005.59] Log: >>>>>>>>>>>>>> Initial startup: 5.59s <<<<<<<<<<<<<<<
+[0005.61] Log: ActivateLevel mainmenugame 1 1 1
+[0005.61] Log: ### Applying resolution 1920 x 1200 (Fullscreen: yes)
+[0005.84] Log: Resizing to 1920x1200 (fullscreen)
+[0006.20] Log: No Cached BSP Physics Data Found Or Out Of Date - Cooking Now.
+[0006.20] Log: COOKEDPHYSICS: BSP 0.00 KB
+[0006.22] Log:  ### --- Resetting level mainmenugame
+[0006.41] Log: ## DLC owned: 1, steam installed: 0
+[0006.48] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0006.52] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0006.52] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0006.64] Log:  ### --- Resetting level x_checkpoints
+[0008.15] DevGameState: Resetting GameState
+[0010.52] Log: ## DLC owned: 1, steam installed: 0
+[0010.63] Log: ## DLC owned: 1, steam installed: 0
+[0014.97] Log: ## DLC owned: 1, steam installed: 0
+[0015.63] Log: ## DLC owned: 1, steam installed: 0
+[0019.23] DevGameState: Resetting GameState
+[0020.17] Log: ## DLC owned: 1, steam installed: 0
+[0020.64] Log: ## DLC owned: 1, steam installed: 0
+[0021.69] Log: --- LOADING CHECKPOINT "Admin_Explosion" ---
+[0021.69] DevGameState: Resetting GameState
+[0021.69] Log: Starting at checkpoint "Admin_Explosion" - DLC: no
+[0021.69] Log: --- LOADING MOVIE START ---
+[0021.71] Log: Starting at checkpoint "Admin_Explosion" - DLC: no
+[0021.72] Log: Flushing async loaders.
+[0021.72] Log: Flushed async loaders.
+[0021.74] Log:  ### --- Resetting level adminblock_persistent
+[0021.74] Log:  ### --- Resetting level x_checkpoints
+[0021.75] Log: Committed map change via OLEngine Transient.OLEngine_0
+[0021.80] Log: Flushing async loaders.
+[0023.49] Log: Flushed async loaders.
+[0023.49] Log:  ### --- Resetting level skydome_dawn
+[0023.51] Log:  ### --- Resetting level asylum_exterior-art
+[0023.51] Log:  ### --- Resetting level asylum_exterior-01b
+[0023.51] Log:  ### --- Resetting level center_block_explosionroom-art
+[0023.52] Log:  ### --- Resetting level center_block_02
+[0023.52] Log:  ### --- Resetting level center_block_02_chunka
+[0023.52] Log:  ### --- Resetting level center_block_02_chunkc
+[0023.53] Log:  ### --- Resetting level center_block_sript
+[0023.53] Log:  ### --- Resetting level asylum_exterior_snd
+[0023.53] Log:  ### --- Resetting level center_block_floors_snd
+[0024.55] DevGameState: GS - Applying checkpoint Admin_Explosion
+[0026.56] Log: KISMET: Remote event WheelchairReady activated for 1 recipients
+[0026.88] Log: --- LOADING MOVIE TIME: 5.18 sec ---
+[0040.56] Log: [OLHero_1] Special move started: SMT_OpenDoorPartial
+[0040.56] Log: [OLHero_1] Activating adjustment of [X=65.662 Y=-116.950 Z=0.000] with heading error 47.03 degs in 0.67 seconds
+[0042.12] Log: [OLHero_1] Special move completed: SMT_OpenDoorPartial
+[0042.72] Log:  ### --- Resetting level adminblock_fake_outside_01-art
+[0052.33] Log: KISMET: Remote event TvTurningOn activated for 3 recipients
+[0055.22] Log: [OLHero_1] Special move started: SMT_OpenDoorPartial
+[0055.22] Log: [OLHero_1] Activating adjustment of [X=-51.638 Y=66.688 Z=0.000] with heading error 48.92 degs in 0.42 seconds
+[0056.40] Log: [OLHero_1] Special move completed: SMT_OpenDoorPartial
+[0057.05] Log:  ### --- Resetting level center_block_02c
+[0059.21] Log: [OLHero_1] Special move started: SMT_EnterSqueeze
+[0059.21] Log: [OLHero_1] Activating adjustment of [X=-0.278 Y=35.722 Z=0.000] with heading error -0.13 degs in 0.18 seconds
+[0060.14] Log:  ### --- Resetting level center_block_02_chunkb
+[0060.29] Log:  ### --- Resetting level center_block_elevator
+[0060.29] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0060.29] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0060.32] Log: [OLHero_1] Special move completed: SMT_EnterSqueeze
+[0061.50] Log: [OLHero_1] Special move started: SMT_ExitSqueeze
+[0061.50] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=4.521 Z=0.000] with heading error 0.00 degs in 0.05 seconds
+[0062.61] Log: [OLHero_1] Special move completed: SMT_ExitSqueeze
+[0066.74] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0066.74] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error -8.51 degs in 0.14 seconds
+[0067.75] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0072.09] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0072.09] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0074.41] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0074.41] Log: [OLHero_1] Activating adjustment of [X=16.550 Y=59.774 Z=0.000] with heading error -26.08 degs in 0.31 seconds
+[0075.59] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0075.60] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0075.60] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0077.88] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0077.88] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error -9.20 degs in 0.15 seconds
+[0078.89] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0081.23] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0081.23] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0083.41] Log: KISMET: Remote event Door_Bathroom activated for 1 recipients
+[0084.72] Log: [OLHero_1] Special move started: SMT_TryOpenLockedDoor
+[0084.72] Log: [OLHero_1] Activating adjustment of [X=28.607 Y=67.385 Z=0.000] with heading error -38.23 degs in 0.37 seconds
+[0086.96] Log: [OLHero_1] Special move completed: SMT_TryOpenLockedDoor
+[0091.33] Log: [OLHero_1] Special move started: SMT_GrabLedgeFromGround
+[0091.33] Log: [OLHero_1] Activating adjustment of [X=-25.154 Y=-34.548 Z=0.000] with heading error -9.98 degs in 0.21 seconds
+[0092.57] Log: [OLHero_1] Special move completed: SMT_GrabLedgeFromGround
+[0092.72] Log: [OLHero_1] Special move started: SMT_ClimbUpLedge
+[0092.72] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=-0.023] with heading error 0.01 degs in 0.00 seconds
+[0092.99] Log:  ### --- Resetting level center_block_01c
+[0093.11] Log:  ### --- Resetting level center_block_02c_chunka
+[0093.57] Log: [OLHero_1] Special move completed: SMT_ClimbUpLedge
+[0093.57] Log: TryAdjustCollisionSizeForLocomotionMode failed for mode LM_Walk
+[0096.88] Log:  ### --- Resetting level center_block_01c_chunkb
+[0104.93] Log: KISMET: Remote event Patient_Running_After_AirVent activated for 1 recipients
+[0106.48] Log: Physics mode for (SkeletalMeshActor_6) is not compatible with TickGroup(0) adjusting
+[0106.48] Log: Physics mode for (SkeletalMeshActor_7) is not compatible with TickGroup(0) adjusting
+[0106.51] Log:  ### --- Resetting level center_block_02c_chunkb
+[0106.66] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0106.66] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0106.74] Log:  ### --- Resetting level adminblock_fake_outside_02-art
+[0107.04] Log: TryAdjustCollisionSizeForLocomotionMode failed for mode LM_Fall
+[0107.51] Log: --- SAVING CHECKPOINT "Admin_Mezzanine" ---
+[0107.73] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0108.73] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0108.74] Log:  ### --- Resetting level center_block_01
+[0108.85] Log:  ### --- Resetting level center_block_01b
+[0108.99] Log:  ### --- Resetting level center_block_01c_chunka
+[0110.41] Log: [OLHero_1] Special move started: SMT_OpenDoorPartial
+[0110.41] Log: [OLHero_1] Activating adjustment of [X=-47.214 Y=-44.850 Z=0.000] with heading error 28.09 degs in 0.33 seconds
+[0110.82] Log: KISMET: Remote event DoorLair activated for 5 recipients
+[0111.41] Log: [OLHero_1] Special move completed: SMT_OpenDoorPartial
+[0132.04] Log: KISMET: Remote event STEPHENSON_WAKE-UP activated for 1 recipients
+[0147.61] Log: [OLHero_1] Special move started: SMT_Crouch
+[0148.00] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0148.00] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0148.19] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0148.19] Log: [OLHero_1] Special move started: SMT_Crouch
+[0148.33] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0148.33] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0148.69] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0153.16] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0153.16] Log: [OLHero_1] Activating adjustment of [X=44.677 Y=28.240 Z=0.000] with heading error 25.32 degs in 0.26 seconds
+[0153.66] ScriptWarning: Accessed None 'EnemyPawn'
+	OLBot Intro_Persistent.TheWorld:PersistentLevel.OLBot_0
+	Function OLGame.OLBot:Idle.BeginState:0029
+[0153.66] Log: KISMET: Remote event Soldierintro activated for 2 recipients
+[0154.33] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0161.92] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0161.92] Log: [OLHero_1] Activating adjustment of [X=86.874 Y=-76.278 Z=0.000] with heading error 38.99 degs in 0.58 seconds
+[0163.27] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0175.06] Log: [OLHero_1] Special move started: SMT_EnterSqueeze
+[0175.06] Log: [OLHero_1] Activating adjustment of [X=-20.342 Y=24.019 Z=0.000] with heading error -5.24 degs in 0.16 seconds
+[0176.17] Log: [OLHero_1] Special move completed: SMT_EnterSqueeze
+[0176.48] Log: TryAdjustCollisionSizeForLocomotionMode failed for mode LM_Cinematic
+[0176.48] Log: KISMET: Remote event SOLDIER_MEZZANINE_GRAB activated for 1 recipients
+[0179.95] Log: KISMET: Remote event SwapWindowsEntrance activated for 1 recipients
+[0181.95] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0182.71] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0182.71] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0183.47] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0183.47] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0184.22] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0184.23] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0184.98] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0184.98] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0185.74] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0186.50] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0187.26] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0188.02] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0188.77] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0189.53] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0190.29] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0195.60] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0196.35] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0197.11] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0197.87] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0198.63] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0199.39] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0200.15] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0200.90] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0201.66] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0210.76] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0211.52] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0212.28] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0213.04] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0213.80] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0214.55] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0215.31] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0216.07] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0216.83] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0217.59] Log: ZELC: Component 'Rubbish.Glass.Broken_windows-03' with Owner 'No_Detailed_Info_Specified' returned normal with incorrect length (0.000000).  ChkActor: OLHero_1 (OLHero Intro_Persistent.TheWorld:PersistentLevel.OLHero_1)
+[0226.86] Log: KISMET: Remote event WheelchairReady activated for 1 recipients
+[0226.86] Log: KISMET: Remote event PriestDone activated for 2 recipients
+[0226.89] Log: --- SAVING CHECKPOINT "Admin_MainHall" ---
+[0238.00] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0238.00] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error -2.31 degs in 0.04 seconds
+[0239.02] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0242.39] Log: [OLHero_1] Special move started: SMT_ClimbUpObstacle
+[0242.39] Log: [OLHero_1] Activating adjustment of [X=-154.515 Y=1.659 Z=-30.038] with heading error -0.01 degs in 0.37 seconds
+[0243.38] Log: [OLHero_1] Special move completed: SMT_ClimbUpObstacle
+[0252.31] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0252.31] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error 2.43 degs in 0.04 seconds
+[0253.33] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0273.45] Log:  ### --- Resetting level center_block_01_chunkb
+[0282.85] Log:  ### --- Resetting level center_block_01_chunka
+[0285.17] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0285.17] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error 0.12 degs in 0.00 seconds
+[0286.19] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0297.80] Log: [OLHero_1] Special move started: SMT_CloseDoor
+[0297.80] Log: [OLHero_1] Activating adjustment of [X=-3.924 Y=15.678 Z=0.000] with heading error -5.49 degs in 0.08 seconds
+[0298.80] Log: [OLHero_1] Special move completed: SMT_CloseDoor
+[0303.61] Log: [OLHero_1] Special move started: SMT_Crouch
+[0304.75] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0305.12] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0305.12] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0305.36] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0306.36] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0310.64] Log: [OLHero_1] Special move started: SMT_OpenDoorPartial
+[0310.64] Log: [OLHero_1] Activating adjustment of [X=29.093 Y=13.167 Z=0.000] with heading error -5.35 degs in 0.16 seconds
+[0311.64] Log: [OLHero_1] Special move completed: SMT_OpenDoorPartial
+[0318.22] Log: [OLHero_1] Special move started: SMT_Crouch
+[0319.36] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0328.98] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0329.98] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0331.93] Log: [OLHero_1] Special move started: SMT_PickupObject
+[0331.93] Log: [OLHero_1] Activating adjustment of [X=0.000 Y=0.000 Z=0.000] with heading error 0.53 degs in 0.01 seconds
+[0332.20] Log: KISMET: Remote event Get_the_Key activated for 1 recipients
+[0332.24] Log: --- SAVING CHECKPOINT "Admin_WheelChair" ---
+[0332.95] Log: [OLHero_1] Special move completed: SMT_PickupObject
+[0337.32] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0337.32] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0339.50] Log: [OLHero_1] Special move started: SMT_Crouch
+[0340.56] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0340.56] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0340.90] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0340.93] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0340.93] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0340.93] ScriptWarning: Accessed array 'OLUIFrontEnd_Credits_1.ViewStack' out of bounds (-1/0)
+	OLUIFrontEnd_Credits Intro_Persistent.TheWorld:PersistentLevel.OLHUD_0.OLUIFrontEnd_1.OLUIFrontEnd_Credits_1
+	Function OLGame.OLUIFrontEnd_Credits:WidgetInitialized:015E
+[0340.94] ScriptWarning: Accessed array 'InventoryNames' out of bounds (1/1)
+	OLUIFrontEnd_TabMenu Intro_Persistent.TheWorld:PersistentLevel.OLHUD_0.OLUIFrontEnd_1.OLUIFrontEnd_TabMenu_1
+	Function OLGame.OLUIFrontEnd_TabMenu:GetInventoryText:01FA
+[0348.00] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0348.05] Log: [OLHero_1] Special move started: SMT_Crouch
+[0349.20] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0350.41] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0350.41] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0350.62] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0351.62] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0353.49] Log: [OLHero_1] Special move started: SMT_Crouch
+[0353.84] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0353.84] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0354.20] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0354.26] Log: [OLHero_1] Special move started: SMT_Crouch
+[0355.20] Log: [OLHero_1] Special move completed: SMT_Crouch
+[0355.20] Log: [OLHero_1] Special move started: SMT_Uncrouch
+[0356.04] Log: [OLHero_1] Special move completed: SMT_Uncrouch
+[0360.94] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0360.94] Log: [OLHero_1] Activating adjustment of [X=90.705 Y=-9.779 Z=0.000] with heading error 13.40 degs in 0.46 seconds
+[0362.12] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0362.99] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0362.99] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0364.41] Log: KISMET: Remote event Attack_Patient_in_Chair activated for 3 recipients
+[0398.93] Log:  ### --- Resetting level center_block_01b_chunka
+[0401.91] Log: KISMET: Remote event GUY_CROSSING_CORRIDOR activated for 1 recipients
+[0401.91] Log: Physics mode for (SkeletalMeshActor_10) is not compatible with TickGroup(0) adjusting
+[0401.94] Log:  ### --- Resetting level center_block_01b_chunkb
+[0405.88] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0405.88] Log: [OLHero_1] Activating adjustment of [X=31.722 Y=-16.560 Z=0.000] with heading error -16.19 degs in 0.18 seconds
+[0407.06] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0411.01] DevGameState: GS - Triggering ApplyGameState for BasementOpen with OFF
+[0411.01] DevGameState: GS - Triggering ApplyGameState for BasementDoor_Bashed_Persist with OFF
+[0426.23] Log: [OLHero_1] Special move started: SMT_CSA
+[0426.23] Log: [OLHero_1] Activating adjustment of [X=76.513 Y=-53.824 Z=0.000] with heading error 8.59 degs in 0.47 seconds
+[0427.57] Log: [OLHero_1] Special move completed: SMT_CSA
+[0427.59] Log: KISMET: Remote event Activate_ControlRoom_Door activated for 1 recipients
+[0428.51] Log: [OLHero_1] Special move started: SMT_OpenDoorInstant
+[0428.51] Log: [OLHero_1] Activating adjustment of [X=-1.204 Y=32.434 Z=0.000] with heading error 0.15 degs in 0.16 seconds
+[0429.69] Log: [OLHero_1] Special move completed: SMT_OpenDoorInstant
+[0430.17] Log: [OLHero_1] Special move started: SMT_CloseDoor
+[0430.17] Log: [OLHero_1] Activating adjustment of [X=54.859 Y=10.617 Z=0.000] with heading error 24.43 degs in 0.28 seconds
+[0431.17] Log: [OLHero_1] Special move completed: SMT_CloseDoor
+[0440.67] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0440.69] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0440.69] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0440.69] ScriptWarning: Accessed array 'OLUIFrontEnd_Credits_2.ViewStack' out of bounds (-1/0)
+	OLUIFrontEnd_Credits Intro_Persistent.TheWorld:PersistentLevel.OLHUD_0.OLUIFrontEnd_2.OLUIFrontEnd_Credits_2
+	Function OLGame.OLUIFrontEnd_Credits:WidgetInitialized:015E
+[0533.16] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0533.18] ScriptWarning: Accessed None 'ButtonBar'
+	OLUIFrontEnd_PauseMenu Intro_Persistent.TheWorld:PersistentLevel.OLHUD_0.OLUIFrontEnd_3.OLUIFrontEnd_PauseMenu_3
+	Function OLGame.OLUIFrontEnd_PauseMenu:PopulateButtons:0400
+[0533.18] ScriptWarning: Accessed None 'ButtonBar'
+	OLUIFrontEnd_PauseMenu Intro_Persistent.TheWorld:PersistentLevel.OLHUD_0.OLUIFrontEnd_3.OLUIFrontEnd_PauseMenu_3
+	Function OLGame.OLUIFrontEnd_PauseMenu:PopulateButtons:0436
+[0533.18] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0533.18] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0535.17] Log: --- SAVING CHECKPOINT "Admin_WheelChair" ---
+[0535.17] DevGameState: Resetting GameState
+[0535.18] Log: LoadMap: Intro_Persistent?Name=Player?Team=255
+[0535.18] Log: --- LOADING MOVIE START ---
+[0535.27] Warning: Warning, Failed to compile Material Instance Asylum_post_process.PostUber.PostUberNoise with Base DefaultMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0535.27] Log: Game class is 'OLGame'
+[0535.28] Log: Primary PhysX scene will be in software.
+[0535.28] Log: Creating Primary PhysX Scene.
+[0535.28] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0535.28] Log: Bringing World Intro_Persistent.TheWorld up for play (0) at 2025.11.01-14.10.15
+[0535.28] Log: Bringing up level for play took: 0.006628
+[0535.28] Error: Can't start an online game that hasn't been created
+[0535.29] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0535.29] Log: ########### Finished loading level: 0.112039 seconds
+[0535.29] Log: Flushing async loaders.
+[0535.31] Log: Flushed async loaders.
+[0535.31] Log: ActivateLevel mainmenugame 1 1 1
+[0535.31] Log: ### Applying resolution 1920 x 1200 (Fullscreen: yes)
+[0535.45] Log: --- LOADING MOVIE TIME: 269 ms ---
+[0535.46] Log: No Cached BSP Physics Data Found Or Out Of Date - Cooking Now.
+[0535.46] Log: COOKEDPHYSICS: BSP 0.00 KB
+[0535.48] Log:  ### --- Resetting level mainmenugame
+[0535.60] Log: ## DLC owned: 1, steam installed: 0
+[0535.66] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0535.69] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0535.69] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0535.79] Log:  ### --- Resetting level x_checkpoints
+[0537.34] DevGameState: Resetting GameState
+[0538.36] Log: ## DLC owned: 1, steam installed: 0
+[0540.92] Log: ## DLC owned: 1, steam installed: 0
+[0543.90] Log: ## DLC owned: 1, steam installed: 0
+[0605.00] Log: Closing by request
+[0605.00] Log: appRequestExit(0)
+[0605.02] Exit: Preparing to exit.
+[0605.09] Exit: Game engine shut down
+[0605.20] Exit: Windows client shut down
+[0605.20] Exit: XAudio2 Device shut down.
+[0605.22] Exit: AK Audio shut down.
+[0605.28] Exit: Object subsystem successfully closed.
+[0605.34] Log: Shutting down FaceFX...
+[0605.34] Log: FaceFX shutdown.
+[0605.38] Exit: Exiting.
+[0605.38] Log: Log file closed, 11/01/25 14:11:26

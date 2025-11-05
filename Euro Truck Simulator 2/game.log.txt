@@ -1,0 +1,1383 @@
+************ : log created on : Monday October 13 2025 @ 20:47:24
+00:00:00.000 : [sys] running on x86_64 / Windows 11 x64 (version 10.0.26100)
+00:00:00.000 : [sys] Command line:  C:\Program Files (x86)\Steam\steamapps\common\Euro Truck Simulator 2\bin\win_x64\eurotrucks2.exe
+00:00:00.000 : [cpu] CPU0: GenuineIntel [Intel(R) Core(TM) 5 210H] with 8 cores (16 threads) at ~2688MHz.
+00:00:00.000 : [sys] using 6 worker thread(s)
+00:00:00.000 : [sys] and 3 worker threads for IO.
+00:00:00.000 : [sys] plus 3 real-time worker threads.
+00:00:00.000 : [sys] using QPC / HPET timer, frequency 10000000Hz
+00:00:00.000 : [mem] physical total: 16008M
+00:00:00.000 : [mem] physical avail: 9487M
+00:00:00.000 : [mem] virtual total: 134217727M
+00:00:00.000 : [mem] virtual avail: 134212715M
+00:00:00.000 : [mem] Trying to allocate memory pool (6291456K)
+00:00:00.000 : [mem] Allocated 128 MBs for temporary loading buffers
+00:00:00.089 : [xinput] Using XInput version 1.4.0
+00:00:00.128 : [hashfs] version.scs: Created and validated, 2 entries (8A836D6FBE2CD298B994E51788AEE5D9552201A0469E098963188EC8854254D5)
+00:00:00.129 : [hashfs] version.scs: Unmounted.
+00:00:00.129 : [ufs] Loaded pack set version 1.56.1.8 created at 1759477515
+00:00:00.152 : [hashfs] effect.scs: Created and validated, 23360 entries (53A4C2C66C4CF3C367E12B99DD64E468BAE7EBED9B9D7DC4155144D3A2E966FA)
+00:00:00.152 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/effect.scs mounted.
+00:00:00.271 : [hashfs] base.scs: Created and validated, 143475 entries (37ABF4967FAC2CB42D189908EF376C03D79A23842C686F196E588E311288AE43)
+00:00:00.271 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base.scs mounted.
+00:00:00.281 : [hashfs] base_map.scs: Created and validated, 2097 entries (1967900D3A6CC84DD49ACDFF40A653BF4B1B7C6005191C607508DCA391574366)
+00:00:00.281 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_map.scs mounted.
+00:00:00.348 : [hashfs] base_vehicle.scs: Created and validated, 47625 entries (57BC70ECC146AC4DE77EDB5C25481D4C48DA0E96D4474AD713EECD3D19C9427F)
+00:00:00.348 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_vehicle.scs mounted.
+00:00:00.383 : [hashfs] base_share.scs: Created and validated, 33934 entries (1F9640610EE66DDD3F4AFE90A8D3B6CD51581B1028D3EC8DC40B865E10067768)
+00:00:00.384 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs mounted.
+00:00:01.126 : [hashfs] def.scs: Created and validated, 54666 entries (49CB6904D8201DC14B43C0735D5BA45C25CACE02094FAE9A5592B06B35D9FE7E)
+00:00:01.126 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs mounted.
+00:00:01.134 : [hashfs] core.scs: Created and validated, 21 entries (6A12F35A9A0003C7C09046FFE9D3D39FA50C4FA02AFA7D7E3157D3976272E047)
+00:00:01.134 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/core.scs mounted.
+00:00:01.258 : [hashfs] locale.scs: Created and validated, 309 entries (3AC8BF5F920BEA273D666EEE915C1F61F91FF4C18865E7D6ADF0DB5F866E7635)
+00:00:01.259 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/locale.scs mounted.
+00:00:01.265 : [hashfs] base_cfg.scs: Created and validated, 1 entries (100B9016CD816A40D12265284DDB850DF60E926C1BDF2452AA0921AC2EB401A5)
+00:00:01.265 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_cfg.scs mounted.
+00:00:01.265 : [ufs] Home directory: 'C:/Users/vadim/OneDrive/Документы/Euro Truck Simulator 2'.
+00:00:01.266 : [fs] device C:/Users/vadim/OneDrive/Документы/Euro Truck Simulator 2 mounted.
+00:00:01.285 : [hashfs] dlc_actros_tuning.scs: Created and validated, 2322 entries (12053DDC75CCC86A9C0256D4DD1E83409EF63B5426D3D19A30ACEE34F0129C30)
+00:00:01.316 : [hashfs] dlc_christmas.scs: Created and validated, 3468 entries (3EC2BB28E0D505470FD7A6527208275BDCCA1F7D763BC53D4677B767E454D27E)
+00:00:01.389 : [hashfs] dlc_daf_2021.scs: Created and validated, 2730 entries (5D096135FC176A9CB7524D02ACB7237EE4AB99DE6B313B53A68B0DA3E838F212)
+00:00:01.414 : [hashfs] dlc_daf_tuning_pack.scs: Created and validated, 2226 entries (B30C76C1A279A41BDF6CC013734876CFBC93C019F6838B40FCA0A491588C948C)
+00:00:01.463 : [hashfs] dlc_daf_xd.scs: Created and validated, 2337 entries (F8E38A6D10646E21F8531FA592C5B53374EB180BA78E9B4A6E480FDC19B28765)
+00:00:01.477 : [hashfs] dlc_dragon.scs: Created and validated, 733 entries (F2ECA2FAF6FFF2A10F7BCC82F63D72022260BD0EAB325A22ADEC2CAF18667AA7)
+00:00:01.494 : [hashfs] dlc_fantasy.scs: Created and validated, 1751 entries (E6CC79B311FDDC0AABC96D6F6BA63F20385DFD58E8FB17AD346439CE52D0FE7B)
+00:00:01.524 : [hashfs] dlc_farm_machinery.scs: Created and validated, 2269 entries (E160487270D914E73C521A49A14FC86BEBD296CCAA2819AEF6C5C5F5356D5E1D)
+00:00:01.561 : [hashfs] dlc_feldbinder.scs: Created and validated, 5575 entries (E69322431771176A5CA131168290B929E9AD17969C073BC8FB92E0534ACF8D01)
+00:00:01.575 : [hashfs] dlc_flags_at.scs: Created and validated, 1220 entries (F6F71648AE50799BA44E8F871EBAF838402CC490ADEF5B0CA451E3B22C0D7CFE)
+00:00:01.590 : [hashfs] dlc_flags_aus.scs: Created and validated, 1206 entries (E54C6323B73DC44B5E04EF78296B5DC30FC26576633276F3AF8A3E162E53D36D)
+00:00:01.606 : [hashfs] dlc_flags_be.scs: Created and validated, 1334 entries (BAC5A5DF3E7C02A09F6336EC9767547AB958278E8FD3FCDD6B05258687E165E9)
+00:00:01.625 : [hashfs] dlc_flags_bg.scs: Created and validated, 1173 entries (556EE9D46ACFB11F6B18E8424EC18CEB0498D705CAF926B7228CA7C0C233D1A0)
+00:00:01.642 : [hashfs] dlc_flags_bz.scs: Created and validated, 1160 entries (A1DB22B46B75553AD4217D4854F93F896F4C7FD02D4169106E4DF339287C3C4C)
+00:00:01.659 : [hashfs] dlc_flags_ca.scs: Created and validated, 1210 entries (2A89D2604B1D6442415DFFDD3D0BD545A9D64A300695F8B349EF894576FB55F5)
+00:00:01.672 : [hashfs] dlc_flags_ch.scs: Created and validated, 1056 entries (2946D438DE18B122CF308FD061495F56D27803833EB84774B0D344E2F0350872)
+00:00:01.687 : [hashfs] dlc_flags_cn.scs: Created and validated, 1132 entries (54F8878FF5D5516D6C755E1E4779EEF6FDC90B4BCBB3E963C37E9BADE67236BA)
+00:00:01.702 : [hashfs] dlc_flags_cz.scs: Created and validated, 1190 entries (BDB78A6E24359D121CC0B8B01DFD0FF37ACE6C3892F9A2FB61E8645F9FE0AADD)
+00:00:01.715 : [hashfs] dlc_flags_de.scs: Created and validated, 1144 entries (2AEE6CADC1C0FCC39CC4D822EB75431758FA6DAC7A637F9DACDC2FBE4883B399)
+00:00:01.729 : [hashfs] dlc_flags_dk.scs: Created and validated, 1101 entries (E231A4A07B938E38280E363124ADA85BD7D3466A767CC3C57817FE8AD559D47B)
+00:00:01.745 : [hashfs] dlc_flags_ee.scs: Created and validated, 1580 entries (1203325F381DB6A4B9EEF51E9C39DF99F6EA56124F9AFD5F53DEC70683328E9F)
+00:00:01.762 : [hashfs] dlc_flags_es.scs: Created and validated, 1697 entries (3781CA40DB1853672F2994AD65A35310D33251EFFF7379F9E587C1A407C4EBB0)
+00:00:01.775 : [hashfs] dlc_flags_fi.scs: Created and validated, 1113 entries (A1E47DCB3C7473AE913700DE01150385A5A2639B9366D71C8BC4F50907196B0C)
+00:00:01.789 : [hashfs] dlc_flags_fr.scs: Created and validated, 1102 entries (558B3E0F0C3BD56E1A80734F2F98642D3D45F032033A8FA85B073E1F4D3E3EB9)
+00:00:01.803 : [hashfs] dlc_flags_hu.scs: Created and validated, 1491 entries (0B65AB832C0EDE22114E37EA4EB000A315F172BF946E24A01B420A987984C3F1)
+00:00:01.818 : [hashfs] dlc_flags_ie.scs: Created and validated, 1214 entries (E8AB6CEC8ED33631617AD3C15C813BDB99700620080838F1F33E055764CFBDD6)
+00:00:01.832 : [hashfs] dlc_flags_it.scs: Created and validated, 1183 entries (DD431B69C7E5705C7554AFF513AA620BCDA12E9B62BA702BEE66BEF65B29A9A8)
+00:00:01.844 : [hashfs] dlc_flags_jp.scs: Created and validated, 1169 entries (FBCAD7CE7EBED456F2CE5DC26011A674A3596FC08618AFC8A7728F097410E634)
+00:00:01.857 : [hashfs] dlc_flags_kr.scs: Created and validated, 1213 entries (CC698B45AE2628F268526299A0CB1EBB2B717A76240B101BA6766D15B898A9BA)
+00:00:01.870 : [hashfs] dlc_flags_lt.scs: Created and validated, 1230 entries (B24DA7B413648530B1513760ECB25B3661D5BEFCD37B1ADF39F93B2D92B76086)
+00:00:01.883 : [hashfs] dlc_flags_lv.scs: Created and validated, 1153 entries (AB78077331ABB395FAE8EBB6300B5FC517D1C50C6A0C7279097DB73A0CF17BF0)
+00:00:01.896 : [hashfs] dlc_flags_n.scs: Created and validated, 1101 entries (6236D316E014C32F2A10787D13B4D4DBC63FF56948CE548B29BA0D5BA718329C)
+00:00:01.912 : [hashfs] dlc_flags_nl.scs: Created and validated, 1271 entries (AF05318E6F84BA140699846627815E11D366F7766A89ADA90E512E0A17DA6B1F)
+00:00:01.925 : [hashfs] dlc_flags_pl.scs: Created and validated, 965 entries (47832A838AB6A42CCEFAB7B44EE70ADD00EEC2D253154649D7909EAA38081F31)
+00:00:01.943 : [hashfs] dlc_flags_pt.scs: Created and validated, 1618 entries (72444C886F7405B2B18FD28DFC248759DD4C0C8BD6597B8BEF16FA99FAED41F2)
+00:00:01.956 : [hashfs] dlc_flags_ro.scs: Created and validated, 1066 entries (C33B6F1ED9615BC641BD4C11A7A30345418C6D4E10F6B6A05FB272548A59874B)
+00:00:01.969 : [hashfs] dlc_flags_ru.scs: Created and validated, 1210 entries (CAE1164D42B7D7743F110F420982841A8372E0044B209A828EFB108A2FBBEF2F)
+00:00:01.985 : [hashfs] dlc_flags_s.scs: Created and validated, 1158 entries (5DCEB595F1EF25BE2954CF154A5D1393F99EA3B6B45D0036A0ED8818C58CC4ED)
+00:00:01.999 : [hashfs] dlc_flags_sc.scs: Created and validated, 1178 entries (218ECC97B49746B938292F2A3A7C38B95CFA56FC754E61A9D513B1A66B92E914)
+00:00:02.012 : [hashfs] dlc_flags_sk.scs: Created and validated, 1056 entries (67521E0E8ED44211A83FB3B7E8FA9DA591CA8B5C2EC4EF25F866C5C833255180)
+00:00:02.025 : [hashfs] dlc_flags_tr.scs: Created and validated, 1149 entries (3C0D3BF9F0F0DD27237EADD248FEAA413F8152AE02FEA0C164677F3059953057)
+00:00:02.038 : [hashfs] dlc_flags_uk.scs: Created and validated, 1151 entries (CE5E955E24F5BA18E607C6DEA61D05A00BDBCD3759892F745F74AD93B45B5B10)
+00:00:02.054 : [hashfs] dlc_flags_ukr.scs: Created and validated, 1176 entries (FCE81696AF85E70EE646A56541A9213F31B971C2384DF5967BC01EA209B1AC60)
+00:00:02.068 : [hashfs] dlc_flags_us.scs: Created and validated, 1186 entries (C0C1E4BDA8A068FF960AEF30B643FE5246E0086D4023152A9808DE3C129CD8ED)
+00:00:02.090 : [hashfs] dlc_goodyear.scs: Created and validated, 2010 entries (D2DD4BDD108A09F64711D6C5E37D18CEA1D210809733E31524360842CC6F793F)
+00:00:02.109 : [hashfs] dlc_greek_paintjobs.scs: Created and validated, 1752 entries (FC54DD93BB07F06E8997DE7D05F1685294E6D7C304F1BE5DB6D146A494366F4D)
+00:00:02.132 : [hashfs] dlc_halloween.scs: Created and validated, 2336 entries (EFA96C0656FB766A4B295ADA262A9C2C05FC881F2F8D378C5F67FED1670E8F08)
+00:00:02.154 : [hashfs] dlc_heavy_cargo.scs: Created and validated, 1667 entries (BBD9119C0C0221E400604A62677DA9A012020EAD5FAEEF7D9DCC34B7C99D131E)
+00:00:02.196 : [hashfs] dlc_hs_schoch.scs: Created and validated, 6689 entries (EE9B3060C4122106452224327573F2710737C29DDF7A044BD12973F46CCF6264)
+00:00:02.246 : [hashfs] dlc_iveco_sway.scs: Created and validated, 1451 entries (E63D3182BBE3C694F117B893E8CBB37710187B5806B4E91F7CD2F8ED8337E556)
+00:00:02.289 : [hashfs] dlc_jcb.scs: Created and validated, 3235 entries (247B6C41BA105656C178F70D4243AAD22F8E0E07DF515931E5713AEE42D263DB)
+00:00:02.340 : [hashfs] dlc_kassbohrer.scs: Created and validated, 6520 entries (4BA584B0F201F699D411450D207E41214F6B4C03C8D824C0252A5DD1116653B5)
+00:00:02.388 : [hashfs] dlc_kogel.scs: Created and validated, 4120 entries (BAE604882AB003FBBCDF694090227E402BC22F2881E2838CB262B5FB6452CE56)
+00:00:02.493 : [hashfs] dlc_krone.scs: Created and validated, 5253 entries (E25D677D8DF709CFC7943DC032F8A41403BF451F23DE9E10CB3FADF36900397D)
+00:00:02.523 : [hashfs] dlc_krone_agriculture.scs: Created and validated, 2098 entries (A2947AE7A50B04C2B2D2BB01D71646FD2BE2D6CBE385197B837B19FF61408C58)
+00:00:02.592 : [hashfs] dlc_lines.scs: Created and validated, 4540 entries (300B028F507A82CF5D053B291AE41C4D745B4A7C854AD90052AEE8644FCF1C52)
+00:00:02.693 : [hashfs] dlc_lunar_new_year.scs: Created and validated, 7352 entries (2323D794A237494BEBE530F9FEE3DDAC2EAAECBF5C51940F94BBADFF8E75AD8B)
+00:00:02.877 : [hashfs] dlc_man_tgx_2020.scs: Created and validated, 2692 entries (D2E772D47DEA172E5824814FB222FD8B965A4EEE3DDC38F83527AE4971A0F0E8)
+00:00:02.923 : [hashfs] dlc_metallics.scs: Created and validated, 1227 entries (3E395B53F1AC0FE714B0EB8A43903E29B67A697CF4AE6799A791B20B6AB61C4F)
+00:00:02.959 : [hashfs] dlc_metallics2.scs: Created and validated, 1362 entries (9EF521C6E7576B482673B6497E06275E92FD1C578C6CB3B67D9F72E51F9FC641)
+00:00:02.993 : [hashfs] dlc_michelin.scs: Created and validated, 3050 entries (DB7D09C34C2F5C231C4792E78692D998FFB30B052FCECFCD47F91EAE7E99334E)
+00:00:03.023 : [hashfs] dlc_mighty_griffin.scs: Created and validated, 2496 entries (EC61F2CFD6557E2478FDB65FADF2C97DEDADBF2CB5025EBB3064CAAD179ECACD)
+00:00:03.044 : [hashfs] dlc_nature.scs: Created and validated, 2056 entries (8C7D4A8D075B788E4EC58C3D6EA7918E2767F9CF51BC8F7C6510F322F501EADC)
+00:00:03.066 : [hashfs] dlc_north.scs: Created and validated, 1692 entries (CF72685580312117C4234678D95361F23ED56243119B394BB475EB699D77D4FE)
+00:00:03.089 : [hashfs] dlc_oversize.scs: Created and validated, 827 entries (C10484B5CACE67648FA74E0A01911C5350E239C45A681B399C724A9432E712B4)
+00:00:03.100 : [hashfs] dlc_pcg.scs: Created and validated, 192 entries (0A605664168B3C9F91866393D8E4B1ACE5D38AD0C6BC8BB716D1162C02B0F023)
+00:00:03.339 : [hashfs] dlc_phys_flags.scs: Created and validated, 13230 entries (1691952109814C1E2F79899C3A93F983588E1985BEB1E7986800730C90B7AB41)
+00:00:03.367 : [hashfs] dlc_pink_ribbon.scs: Created and validated, 1992 entries (87201E5A42C73F18918BD9B783E4A69B2D279475C0031093242B4A810F23BED9)
+00:00:03.389 : [hashfs] dlc_pirates.scs: Created and validated, 2475 entries (A3F2F77085D7DF516C41755AA0AC53483D5F47D775DFA4538483F54A46A0792D)
+00:00:03.410 : [hashfs] dlc_prehistoric.scs: Created and validated, 2084 entries (07FDE7BD87804C58D7170001716E1C7E5108E6B442A04098FA4C0CC36F1C6F9F)
+00:00:03.431 : [hashfs] dlc_raven.scs: Created and validated, 1420 entries (D3423C679AD7B750AC6F71FC78605BDCCD8F7824F8899536AB459AB7446E371D)
+00:00:03.446 : [hashfs] dlc_renault_etech_t.scs: Created and validated, 355 entries (3E1F22031AA6892E6582334461A19D3E171057E43BDC92CBFEA8517F5F608BB8)
+00:00:03.465 : [hashfs] dlc_renault_t_tuning.scs: Created and validated, 2548 entries (8033C98608BFCF0700C081A9888FB66D3601105EB0E93A8CD9689AE4FE608246)
+00:00:03.476 : [hashfs] dlc_rims.scs: Created and validated, 714 entries (FB8A560E19AFE823788612650613DF41AB1089E65FE43E05E3ABD474D0E22DA9)
+00:00:03.485 : [hashfs] dlc_rocket_league.scs: Created and validated, 164 entries (BCE155B94F670AD83B471F956A2214D3D9397094AE47B7C9F330BFF83BE9867D)
+00:00:03.523 : [hashfs] dlc_scania_s_2024e.scs: Created and validated, 599 entries (6C5F9D7D0683E6501EA0F85DDD1386616B30325B94DE4B8F20D0C4EBB08F0631)
+00:00:03.562 : [hashfs] dlc_schmitz.scs: Created and validated, 6124 entries (6A5795AEE6440571F43F40146AF0B18A0ED8272F314CAD999085419FD3B7259F)
+00:00:03.594 : [hashfs] dlc_schwarzmuller.scs: Created and validated, 3387 entries (A4E942680206CD2DB44DC3F3A6CE8E70AB67CB306F4D69BF8A502D266D158D2E)
+00:00:03.621 : [hashfs] dlc_space.scs: Created and validated, 2322 entries (03897073E0AC4E37E08980A564FDCDBF92B9A04BB4D1D9F7E295A54AC623456A)
+00:00:03.654 : [hashfs] dlc_streetart.scs: Created and validated, 2628 entries (7B333519455DF750C0A6CA8D5CB28C02923462B0F709833EE5E0A219A45596D3)
+00:00:03.695 : [hashfs] dlc_super_stripes.scs: Created and validated, 4399 entries (ACF3BF51D4FFC4C6100ED9C1D7EBB8C84B28A1A7807834DF971A7810CE0E5CD1)
+00:00:03.725 : [hashfs] dlc_tirsan.scs: Created and validated, 5599 entries (A6A21AE361A3F7C40AA93D06DB0C36DF89917E9130F342915D3513C34F545384)
+00:00:03.768 : [hashfs] dlc_toys.scs: Created and validated, 2906 entries (5A99686B26EF5EBA13C37DA64022C941C98220A726A7CD5405668D18F4644AB2)
+00:00:03.800 : [hashfs] dlc_trailers.scs: Created and validated, 2562 entries (0D8B7CC46CFFE29AA938CAD58325F96277491F7DC781EBEF6743E68CF058C26A)
+00:00:03.826 : [hashfs] dlc_valentine.scs: Created and validated, 2121 entries (B66D2EA5644F424CEA2830ACAF730C0EF5A226DEB763F439B24EA62DC100F69A)
+00:00:03.845 : [hashfs] dlc_vikings.scs: Created and validated, 1732 entries (2BE966E5F980C4E234CFB66680501E3E22F77D788E1EC892FF786FAAB0743FAC)
+00:00:03.861 : [hashfs] dlc_volvo_construction.scs: Created and validated, 1971 entries (C86AC8B681B287137DD6DFAC9B1655AD3E65CA519319E3C93FD4C53760B023BC)
+00:00:03.956 : [hashfs] dlc_volvo_fh_2021.scs: Created and validated, 1342 entries (675F91DBD9A42766EB157C9773F95445C53FAEAECC9CC87FC9CC66E358513C9B)
+00:00:04.058 : [hashfs] dlc_volvo_fh_2024.scs: Created and validated, 2955 entries (44D43BBFEB5A636D9389BA822CBD1E1EAC3FCFADD3503F88B808A8C190025098)
+00:00:04.095 : [hashfs] dlc_volvo_tuning_pack.scs: Created and validated, 3536 entries (D9DE8D556660CA44DA018B1F9DA8B5E819F98F8352D5822F06CEF4D54699A822)
+00:00:04.135 : [hashfs] dlc_wielton.scs: Created and validated, 4633 entries (C8AB90EFA045420706957523D1C8E50BD129E77525C6BC9FFDCDB7ADF79CEA90)
+00:00:04.211 : [hashfs] dlc_winter.scs: Created and validated, 2326 entries (1A43EF3FB3BE63C4ED27108306EF3C2B38C4E5440C3110A92A1B9A67E369B324)
+00:00:04.250 : [mod_package_manager] Requesting Steam Workshop content..
+00:00:04.631 : exec /home/config.cfg
+00:00:04.631 : [sys] Failed to execute (/home/config.cfg), the file does not exist.
+00:00:04.650 : [lang] Language autodetection: 419
+00:00:04.706 : Selected language: ru_ru
+00:00:04.706 : Euro Truck Simulator 2 init ver.1.56.1.8s (rev. 20d0f188bf69)
+00:00:04.707 : [gfx] Selected rendering device: dx11
+00:00:04.752 : [nvapi] NVAPI initialized
+00:00:04.758 : [gfx] AGS not detected. (6)
+00:00:06.217 : [net]  LOG INFO: Started
+00:00:06.226 : [ACHIEVEMENTS] Loaded achievement data with 101 achievements.
+00:00:06.228 : Setting UI reference mode to: 1440x900...
+00:00:06.235 : [dxgi] Detected following adapters:
+00:00:06.249 : [dxgi] 0 - NVIDIA GeForce RTX 3050 6GB Laptop GPU (32.0.15.8142) [6002 MB]
+00:00:06.263 : [dxgi] 1 - Intel(R) Graphics (32.0.101.6790) [128 MB]
+00:00:06.273 : [dxgi] Using adapter: NVIDIA GeForce RTX 3050 6GB Laptop GPU (32.0.15.8142) [6002 MB]
+00:00:06.275 : [gfx] Using the DXGI display backend
+00:00:07.173 : [dx11] Using SM5X rendering path
+00:00:07.179 : [dxgi] Selected swapchain color mode:
+00:00:07.180 : [disp] srgb (sdr) - sRGB - B8G8R8A8_UNORM_SRGB +native
+00:00:07.362 : [win] new windowed size: 116 1
+00:00:07.362 : Window resize notification received: 116 1
+00:00:07.362 : [dxgi] Resizing backbuffers: 116 1 (flags: 800)
+00:00:07.389 : [dx11] Backbuffer acquired
+00:00:07.391 : [dx11] Backbuffer released
+00:00:07.391 : [dxgi] Resizing backbuffers: 1440 900 (flags: 800)
+00:00:07.402 : [dx11] Backbuffer acquired
+00:00:07.403 : [disp] Adapter 0:  on DXGI backend
+00:00:07.403 : [disp] Display 0 : \\.\DISPLAY1 - CRTC @ (0, 0, 1920, 1200)
+00:00:07.403 : [disp] Detected color modes:
+00:00:07.403 : [disp] srgb (sdr) - sRGB - B8G8R8A8_UNORM_SRGB +native
+00:00:07.403 : [disp] bt709_lim (sdr) - BT.709 Limited - B8G8R8A8_UNORM +native
+00:00:07.403 : [disp] Display MinLum: 0.500000, MaxLum 270.000000, MaxAvgLum: 270.000000
+00:00:07.418 : [gfx] Considered entries:
+00:00:07.418 :   Generic >300MB
+00:00:07.714 : [r_effect] Rescan took 0.3s
+00:00:08.376 : [sound] Available drivers: #1
+00:00:08.376 : [sound] Driver 0 = Динамики (Realtek(R) Audio) (48000 Hz) ({dc68e762-d01f-cb65-00e7-ff17cf368005})
+00:00:08.540 : [sound] Selecting default audio driver (0).
+00:00:08.740 : Game is running on Steamdeck: no, g_steam_steamdeck_mode 0
+00:00:08.744 : [di8] Initializing device '@@keyboard@@' as 'keyboard'
+00:00:08.746 : [di8] Initializing device '@@i_mouse@@' as 'mouse'
+00:00:08.755 : [di8] Initializing device 'Controller (Xbox One For Windows)' as '{128639F0-9D26-11F0-8007-444553540000}|{02FF045E-0000-0000-0000-504944564944}'
+00:00:08.758 : [di8] Axis input 'x' with name 'Ось X'
+00:00:08.758 : [di8] Axis input 'y' with name 'Ось Y'
+00:00:08.758 : [di8] Axis input 'z' with name 'Ось Z'
+00:00:08.758 : [di8] Axis input 'rx' with name 'Вращение вокруг оси X'
+00:00:08.758 : [di8] Axis input 'ry' with name 'Вращение вокруг оси Y'
+00:00:08.758 : [di8] Button input 'pov1_up' with name 'Переключатель POV @@up@@'
+00:00:08.758 : [di8] Button input 'pov1_right' with name 'Переключатель POV @@right@@'
+00:00:08.758 : [di8] Button input 'pov1_down' with name 'Переключатель POV @@down@@'
+00:00:08.758 : [di8] Button input 'pov1_left' with name 'Переключатель POV @@left@@'
+00:00:08.758 : [di8] Axis input 'pov1_x' with name 'Переключатель POV @@x@@'
+00:00:08.758 : [di8] Axis input 'pov1_y' with name 'Переключатель POV @@y@@'
+00:00:08.758 : [di8] Vector input 'pov1' with name 'Переключатель POV'
+00:00:08.758 : [di8] Button input 'b1' with name 'Кнопка 0'
+00:00:08.758 : [di8] Button input 'b2' with name 'Кнопка 1'
+00:00:08.758 : [di8] Button input 'b3' with name 'Кнопка 2'
+00:00:08.758 : [di8] Button input 'b4' with name 'Кнопка 3'
+00:00:08.758 : [di8] Button input 'b5' with name 'Кнопка 4'
+00:00:08.758 : [di8] Button input 'b6' with name 'Кнопка 5'
+00:00:08.758 : [di8] Button input 'b7' with name 'Кнопка 6'
+00:00:08.758 : [di8] Button input 'b8' with name 'Кнопка 7'
+00:00:08.758 : [di8] Button input 'b9' with name 'Кнопка 8'
+00:00:08.758 : [di8] Button input 'b10' with name 'Кнопка 9'
+00:00:08.758 : [di8] Button input 'b11' with name 'Кнопка 10'
+00:00:08.758 : [di8] Button input 'b12' with name 'Кнопка 11'
+00:00:08.758 : [di8] Button input 'b13' with name 'Кнопка 12'
+00:00:08.758 : [di8] Button input 'b14' with name 'Кнопка 13'
+00:00:08.758 : [di8] Button input 'b15' with name 'Кнопка 14'
+00:00:08.758 : [di8] Button input 'b16' with name 'Кнопка 15'
+00:00:08.758 : [di8] Button input 'rstick_left' with name '@@rstick_left@@'
+00:00:08.758 : [di8] Button input 'rstick_right' with name '@@rstick_right@@'
+00:00:08.759 : [di8] Button input 'rstick_down' with name '@@rstick_down@@'
+00:00:08.759 : [di8] Button input 'rstick_up' with name '@@rstick_up@@'
+00:00:08.759 : [di8] Button input 'left' with name '@@lstick_left@@'
+00:00:08.759 : [di8] Button input 'right' with name '@@lstick_right@@'
+00:00:08.759 : [di8] Button input 'down' with name '@@lstick_down@@'
+00:00:08.759 : [di8] Button input 'up' with name '@@lstick_up@@'
+00:00:08.759 : [di8] Button input 'button_lt' with name '@@button_lt@@'
+00:00:08.759 : [di8] Button input 'button_rt' with name '@@button_rt@@'
+00:00:08.801 : Using '{128639F0-9D26-11F0-8007-444553540000}|{02FF045E-0000-0000-0000-504944564944}' ('Controller (Xbox One For Windows)') as ui_joy.
+00:00:08.801 : Using 'xinput_gamepad_1' ('@@xinput_gamepad@@ 1') as ui_joy.
+00:00:09.246 : [dx11] Backbuffer released
+00:00:09.250 : [win] new windowed size: 136 44
+00:00:09.250 : Window resize notification received: 136 44
+00:00:09.250 : [dxgi] Resizing backbuffers: 136 44 (flags: 800)
+00:00:09.263 : [dx11] Backbuffer acquired
+00:00:09.265 : [win] new windowed size: 1920 1200
+00:00:09.265 : Window resize notification received: 1920 1200
+00:00:09.266 : [dx11] Backbuffer released
+00:00:09.266 : [dxgi] Resizing backbuffers: 1920 1200 (flags: 800)
+00:00:09.273 : [dx11] Backbuffer acquired
+00:00:09.275 : [dx11] Backbuffer released
+00:00:09.275 : [dxgi] Resizing backbuffers: 1920 1200 (flags: 800)
+00:00:09.283 : [dx11] Backbuffer acquired
+00:00:09.290 : Banlist loading...
+00:00:09.290 : === BAN LIST ===
+00:00:09.290 : ================
+00:00:09.364 : [zipfs] 154.zip: Created, 48 entries
+00:00:09.364 : [zipfs] 154.zip: Unmounted
+00:00:09.433 : [hashfs] universal.scs: Created, 226 entries
+00:00:09.435 : [hashfs] universal.scs: Unmounted.
+00:00:09.448 : [hashfs] universal.scs: Created, 74 entries
+00:00:09.449 : [hashfs] universal.scs: Unmounted.
+00:00:09.586 : [zipfs] smp3_3_140.zip: Created, 39647 entries
+00:00:09.587 : [zipfs] smp3_3_140.zip: Unmounted
+00:00:09.607 : [hashfs] sound.scs: Created, 1823 entries
+00:00:09.614 : [hashfs] sound.scs: Unmounted.
+00:00:09.651 : [zipfs] v1_5.zip: Created, 1227 entries
+00:00:09.652 : [zipfs] v1_5.zip: Unmounted
+00:00:09.702 : [zipfs] sanax_volvo_fh_2022.zip: Created, 5777 entries
+00:00:09.702 : [zipfs] sanax_volvo_fh_2022.zip: Unmounted
+00:00:09.720 : [mod_package_manager] Received list of the steam workshop subscribed mods. (received 14 mods total, 14 loaded, 0 scheduled for download)
+00:00:09.722 : dispatch
+00:00:09.722 : server_cfg
+00:00:09.724 : exit
+00:00:13.590 : [color_feedback] Detected 1 ASUS AURA devices.
+00:00:13.590 : [color_feedback] Detected ASUS AURA device 'WallPaper' of type <unknown> (86016) with grid 16x1.
+00:00:17.521 : Enforcing 'floor_reflection: false' in '/model/ui/garage/desktop_garage.pmd' scene - there are no parts to be customized for reflection.
+00:00:18.003 : [GET FILES] File /steam/profiles/62657461/profile.bak.sii does not exist.
+00:00:18.461 : mm_flush_repeatedly
+00:00:18.522 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_actros_tuning.scs mounted.
+00:00:18.523 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_christmas.scs mounted.
+00:00:18.523 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_daf_2021.scs mounted.
+00:00:18.524 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_daf_tuning_pack.scs mounted.
+00:00:18.524 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_daf_xd.scs mounted.
+00:00:18.525 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_dragon.scs mounted.
+00:00:18.525 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_fantasy.scs mounted.
+00:00:18.525 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_farm_machinery.scs mounted.
+00:00:18.526 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_feldbinder.scs mounted.
+00:00:18.526 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_at.scs mounted.
+00:00:18.526 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_aus.scs mounted.
+00:00:18.526 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_be.scs mounted.
+00:00:18.527 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_bg.scs mounted.
+00:00:18.527 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_bz.scs mounted.
+00:00:18.527 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ca.scs mounted.
+00:00:18.527 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ch.scs mounted.
+00:00:18.528 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_cn.scs mounted.
+00:00:18.528 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_cz.scs mounted.
+00:00:18.528 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_de.scs mounted.
+00:00:18.529 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_dk.scs mounted.
+00:00:18.529 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ee.scs mounted.
+00:00:18.529 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_es.scs mounted.
+00:00:18.529 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_fi.scs mounted.
+00:00:18.529 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_fr.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_hu.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ie.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_it.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_jp.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_kr.scs mounted.
+00:00:18.530 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_lt.scs mounted.
+00:00:18.531 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_lv.scs mounted.
+00:00:18.531 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_n.scs mounted.
+00:00:18.531 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_nl.scs mounted.
+00:00:18.531 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_pl.scs mounted.
+00:00:18.531 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_pt.scs mounted.
+00:00:18.532 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ro.scs mounted.
+00:00:18.532 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ru.scs mounted.
+00:00:18.532 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_s.scs mounted.
+00:00:18.532 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_sc.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_sk.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_tr.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_uk.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_ukr.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_flags_us.scs mounted.
+00:00:18.533 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_goodyear.scs mounted.
+00:00:18.534 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_greek_paintjobs.scs mounted.
+00:00:18.534 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_halloween.scs mounted.
+00:00:18.534 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_heavy_cargo.scs mounted.
+00:00:18.534 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_hs_schoch.scs mounted.
+00:00:18.534 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_iveco_sway.scs mounted.
+00:00:18.535 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_jcb.scs mounted.
+00:00:18.535 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_kassbohrer.scs mounted.
+00:00:18.535 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_kogel.scs mounted.
+00:00:18.536 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_krone.scs mounted.
+00:00:18.536 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_krone_agriculture.scs mounted.
+00:00:18.536 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_lines.scs mounted.
+00:00:18.536 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_lunar_new_year.scs mounted.
+00:00:18.537 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_man_tgx_2020.scs mounted.
+00:00:18.537 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_metallics.scs mounted.
+00:00:18.537 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_metallics2.scs mounted.
+00:00:18.537 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_michelin.scs mounted.
+00:00:18.538 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_mighty_griffin.scs mounted.
+00:00:18.538 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_nature.scs mounted.
+00:00:18.539 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_north.scs mounted.
+00:00:18.539 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_oversize.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_pcg.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_phys_flags.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_pink_ribbon.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_pirates.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_prehistoric.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_raven.scs mounted.
+00:00:18.540 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_renault_etech_t.scs mounted.
+00:00:18.541 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_renault_t_tuning.scs mounted.
+00:00:18.541 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_rims.scs mounted.
+00:00:18.541 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_rocket_league.scs mounted.
+00:00:18.541 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_scania_s_2024e.scs mounted.
+00:00:18.542 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_schmitz.scs mounted.
+00:00:18.542 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_schwarzmuller.scs mounted.
+00:00:18.543 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_space.scs mounted.
+00:00:18.543 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_streetart.scs mounted.
+00:00:18.543 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_super_stripes.scs mounted.
+00:00:18.544 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_tirsan.scs mounted.
+00:00:18.544 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_toys.scs mounted.
+00:00:18.544 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_trailers.scs mounted.
+00:00:18.544 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_valentine.scs mounted.
+00:00:18.544 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_vikings.scs mounted.
+00:00:18.545 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_volvo_construction.scs mounted.
+00:00:18.545 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_volvo_fh_2021.scs mounted.
+00:00:18.545 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_volvo_fh_2024.scs mounted.
+00:00:18.545 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_volvo_tuning_pack.scs mounted.
+00:00:18.546 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_wielton.scs mounted.
+00:00:18.546 : [fs] device C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/dlc_winter.scs mounted.
+00:00:18.547 : [SAVE MANAGER] Creating backup of local profiles inside '/home/profiles(1.56.1.8s).bak'
+00:00:18.547 : [SAVE MANAGER] Local profiles backup complete
+00:00:18.547 : [SAVE MANAGER] Creating backup of steam profiles inside '/home/steam_profiles(1.56.1.8s).bak'
+00:00:21.764 : [SAVE MANAGER] Steam profiles backup complete
+00:00:21.764 : [SAVE MANAGER] Profiles backup complete
+00:00:21.802 : [GET FILES] File /home/steam_profiles/4644474F442063736661696C6E65742072756E20/config_local.cfg does not exist.
+00:00:21.804 : Config_local file not found, reverting to default.
+00:00:21.804 : uset s_reverb_world "1"
+00:00:21.804 : uset s_reverb_cabin "1"
+00:00:21.804 : uset s_noise_aero "1"
+00:00:21.804 : uset s_noise_windows "1"
+00:00:21.804 : uset s_rumble_enabled "1"
+00:00:21.804 : uset s_reverse_enabled "1"
+00:00:21.804 : uset s_cb_radio_beep_type "roger01"
+00:00:21.805 : uset s_cb_radio_beep_own "0"
+00:00:21.805 : uset s_cb_radio_beep_enabled "1"
+00:00:21.805 : uset s_cb_radio_noise_enabled "1"
+00:00:21.805 : uset g_mp_name_tags "1"
+00:00:21.805 : uset g_chat_fade_out_timer "5"
+00:00:21.805 : uset g_chat_partial_fade_out "0"
+00:00:21.805 : uset g_chat_on_navigation "1"
+00:00:21.805 : uset g_chat_activate "1"
+00:00:21.805 : uset g_chat_close_automatic "0"
+00:00:21.805 : uset g_disable_beacons "0"
+00:00:21.805 : uset g_show_game_blockers "1"
+00:00:21.805 : uset g_show_game_elements "1"
+00:00:21.805 : uset g_hmd_no_3d_background "0"
+00:00:21.805 : uset g_hmd_no_special_menu "0"
+00:00:21.805 : uset g_hmd_reduced_cabin_movement "1"
+00:00:21.805 : uset g_hmd_no_artifical_movement "0"
+00:00:21.806 : uset g_eye_pause_gaze "3000"
+00:00:21.806 : uset g_eye_pause "0"
+00:00:21.806 : uset g_cam_blinker "0"
+00:00:21.806 : uset g_camera_horizon_lock "0.5"
+00:00:21.806 : uset g_cam_physics_value "1.0"
+00:00:21.806 : uset g_cam_physics "1"
+00:00:21.806 : uset g_blind_spot "1"
+00:00:21.806 : uset g_lane_assistant "0"
+00:00:21.806 : uset g_emergency_brake_mode "0"
+00:00:21.806 : uset g_emergency_brake "0"
+00:00:21.806 : uset g_acc "30"
+00:00:21.806 : uset g_auto_diff_lock "0"
+00:00:21.806 : uset g_automatic_high_beams "0"
+00:00:21.806 : uset g_automatic_headlights "0"
+00:00:21.806 : uset g_blinker_auto_off "1"
+00:00:21.806 : uset g_cruise_control_smart "5"
+00:00:21.806 : uset g_cruise_control_grid "5.0"
+00:00:21.806 : uset g_adaptive_shift "0.0"
+00:00:21.806 : uset g_fuel_simulation "1"
+00:00:21.806 : uset g_hardcore_simulation "1"
+00:00:21.806 : uset g_reg_setting ""
+00:00:21.806 : uset g_brake_light_all "0"
+00:00:21.806 : uset g_use_speed_limiter "0"
+00:00:21.806 : uset g_hud_speed_warning "0"
+00:00:21.806 : uset g_hud_speed_limit "1"
+00:00:21.806 : uset g_axle_drop_auto "1"
+00:00:21.806 : uset g_engine_start_auto "1"
+00:00:21.806 : uset g_motor_brake_auto "0"
+00:00:21.806 : uset g_retarder_auto "0"
+00:00:21.806 : uset g_cabin_suspension_stiffness "1.0"
+00:00:21.806 : uset g_suspension_stiffness "1.0"
+00:00:21.806 : uset g_trailer_stability "0.5"
+00:00:21.806 : uset g_driveshaft_torque "0.0"
+00:00:21.806 : uset g_truck_stability "0.5"
+00:00:21.806 : uset g_mpg "0"
+00:00:21.806 : uset g_gallon "0"
+00:00:21.806 : uset g_psi "0"
+00:00:21.806 : uset g_fahrenheit "0"
+00:00:21.806 : uset g_pounds "kg"
+00:00:21.806 : uset g_mph "0"
+00:00:21.806 : uset g_road_events "1.0"
+00:00:21.806 : uset g_detours "1.0"
+00:00:21.806 : uset g_online_billboards "1"
+00:00:21.806 : uset g_name_localization_secondary "0"
+00:00:21.806 : uset g_name_localization "1"
+00:00:21.806 : uset g_lang_set "1"
+00:00:21.806 : uset g_lang "ru_ru"
+00:00:21.806 : uset g_cutscenes "1"
+00:00:21.806 : uset g_phys_mirrors "0"
+00:00:21.806 : uset g_world_map_zoom "5"
+00:00:21.807 : uset g_cargo_load_require_park_brake "0"
+00:00:21.807 : uset g_cargo_load_require_engine_off "1"
+00:00:21.807 : uset g_desktop_tour "0"
+00:00:21.807 : uset g_event_desktop_bcg_change "0"
+00:00:21.807 : uset g_event_desktop_bcg_restore "config.waves"
+00:00:21.807 : uset g_last_event_desktop_bcg_change "1734307200"
+00:00:21.807 : uset g_show_always_wotr_event "0"
+00:00:21.807 : uset g_last_wotr_event_start "0"
+00:00:21.807 : uset g_multiplayer_backup_index "-1"
+00:00:21.807 : uset g_autoload_ignore_autosave "0"
+00:00:21.807 : uset g_start_in_truck "0"
+00:00:21.807 : uset g_park_brake_init "0"
+00:00:21.807 : uset g_trailer_advanced_coupling "1"
+00:00:21.807 : uset g_parking_difficulty "0"
+00:00:21.807 : uset g_simple_parking_doubles "1"
+00:00:21.807 : uset g_speed_warning "0"
+00:00:21.807 : uset g_voice_navigation_pack "russian_denis"
+00:00:21.807 : uset g_voice_navigation "1"
+00:00:21.807 : uset g_job_distance "0.2"
+00:00:21.807 : uset g_job_distance_limit "-1.0"
+00:00:21.808 : uset g_income_factor "1.0"
+00:00:21.808 : uset g_currency "9"
+00:00:21.808 : uset g_bad_weather_factor "0.4"
+00:00:21.808 : uset g_truck_analysis_fold "0"
+00:00:21.808 : uset g_desktop_rnd "0"
+00:00:21.808 : uset g_desktop_bcg "config.night_city"
+00:00:21.808 : uset g_ui_map_align "1"
+00:00:21.808 : uset g_gps_routing_mode "1"
+00:00:21.808 : uset g_gps_navigation "3"
+00:00:21.808 : uset g_heavy_cargo_popup "1"
+00:00:21.808 : uset g_mirrors "0"
+00:00:21.808 : uset g_adviser_eta "1"
+00:00:21.808 : uset g_adviser_running_message "1"
+00:00:21.808 : uset g_adviser_auto_parking "1"
+00:00:21.808 : uset g_adviser_keep_hidden "0"
+00:00:21.808 : uset g_adviser "0"
+00:00:21.808 : uset g_desktop_tutorial "1"
+00:00:21.808 : uset g_tutorial "1"
+00:00:21.808 : uset g_fatigue "1"
+00:00:21.808 : uset g_time_zones "0"
+00:00:21.808 : uset g_police "0"
+00:00:21.808 : uset g_subtitles "0"
+00:00:21.808 : uset g_clock_24 "1"
+00:00:21.827 : [GET FILES] File /home/steam_profiles/4644474F442063736661696C6E65742072756E20/controls.sii does not exist.
+00:00:21.827 : [GET FILES] File /home/steam_profiles/4644474F442063736661696C6E65742072756E20/ffb_lut.sii does not exist.
+00:00:21.884 : [GET FILES] File /steam/profiles/4644474F442063736661696C6E65742072756E20/quick_replies.sii does not exist.
+00:00:21.886 : Set profile finished: 'FDGOD csfailnet run '
+00:00:21.886 : Profile type: PC_steam_cloud
+00:00:21.904 : New profile selected: 'FDGOD csfailnet run '
+00:00:29.957 : [mods] Active 8 mods (local: 0, workshop: 8)
+00:00:29.957 : [mods] Active workshop mod ID 1582135407 (name: Air Ride A3 v1.2, version: 1.2, author: Momo)
+00:00:29.957 : [mods] Active workshop mod ID 648591060 (name: Sound Fixes Pack v25.47.1 - ETS2, version: 25.47.1, author: Drive Safely)
+00:00:29.957 : [mods] Active workshop mod ID 2632159897 (name: Street Lamps - With fog, version: 1.0, author: Leozin)
+00:00:29.957 : [mods] Active workshop mod ID 1236032431 (name: Real Traffic Density ETS2, version: 1.56, author: cip)
+00:00:29.957 : [mods] Active workshop mod ID 2931835197 (name: Different lenses of traffic lights, version: 1.1, author: sasha19990309)
+00:00:29.957 : [mods] Active workshop mod ID 1820303287 (name: True Mirror FOV for ETS2, version: 1.55, author: edkode)
+00:00:29.957 : [mods] Active workshop mod ID 2112187479 (name: Realistic Headlights, version: 3.0, author: Leozin)
+00:00:29.957 : [mods] Active workshop mod ID 713338424 (name: Realistic Truck Physics Mod v9.0.8 (by Frkn64), version: 9.0.8, author: Frkn64)
+00:00:29.963 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/1582135407/universal mounted.
+00:00:29.963 : [mod_package_manager] Mod "Air Ride A3 v1.2" has been mounted. (package_name: mod_workshop_package.000000005E4D786F, version: 1.2, source: Steam Workshop)
+00:00:29.965 : [hashfs] sound.scs: Created, 1823 entries
+00:00:29.974 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/648591060/sound.scs mounted.
+00:00:29.974 : [mod_package_manager] Mod "Sound Fixes Pack v25.47.1 - ETS2" has been mounted. (package_name: mod_workshop_package.0000000026A8B6D4, version: 25.47.1, source: Steam Workshop)
+00:00:29.975 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/2632159897/universal mounted.
+00:00:29.975 : [mod_package_manager] Mod "Street Lamps - With fog" has been mounted. (package_name: mod_workshop_package.000000009CE39299, version: 1.0, source: Steam Workshop)
+00:00:29.975 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/1236032431/latest mounted.
+00:00:29.975 : [mod_package_manager] Mod "Real Traffic Density ETS2" has been mounted. (package_name: mod_workshop_package.0000000049AC5BAF, version: 1.56, source: Steam Workshop)
+00:00:29.978 : [zipfs] 154.zip: Created, 48 entries
+00:00:29.978 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/2931835197/154.zip mounted.
+00:00:29.978 : [mod_package_manager] Mod "Different lenses of traffic lights" has been mounted. (package_name: mod_workshop_package.00000000AEC0413D, version: 1.1, source: Steam Workshop)
+00:00:29.979 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/1820303287/universal mounted.
+00:00:29.979 : [mod_package_manager] Mod "True Mirror FOV for ETS2" has been mounted. (package_name: mod_workshop_package.000000006C7F9FB7, version: 1.55, source: Steam Workshop)
+00:00:29.979 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/2112187479/universal mounted.
+00:00:29.979 : [mod_package_manager] Mod "Realistic Headlights" has been mounted. (package_name: mod_workshop_package.000000007DE56C57, version: 3.0, source: Steam Workshop)
+00:00:29.979 : [hashfs] universal.scs: Created, 226 entries
+00:00:29.981 : [fs] device C:/Program Files (x86)/Steam/steamapps/workshop/content/227300/713338424/universal.scs mounted.
+00:00:29.981 : [mod_package_manager] Mod "Realistic Truck Physics Mod v9.0.8 (by Frkn64)" has been mounted. (package_name: mod_workshop_package.000000002A84AE38, version: 9.0.8, source: Steam Workshop)
+00:00:30.532 : [inp] Device change detected
+00:00:30.720 : [inp] Initial evaluation
+00:00:30.720 : [inp] Classifying devices
+00:00:30.720 : [inp] Analyzing "Controller (Xbox One For Windows)" "di8.'{128639F0-9D26-11F0-8007-444553540000}|{02FF045E-0000-0000-0000-504944564944}'"
+00:00:30.721 : [inp] Applying input.steer.xbone.gamepad
+00:00:30.721 : [inp] Applying input.pedals.xbone.gamepad
+00:00:30.721 : [inp] Applying input.clutch.default
+00:00:30.721 : [inp] Applying input.look.xbone.gamepad
+00:00:30.721 : [inp] Applying input.gearbox.updown.xbone.gamepad
+00:00:30.721 : [inp] Applying input.gearbox.drive.default
+00:00:30.721 : [inp] Applying input.gearbox.hshifter.default
+00:00:30.721 : [inp] Applying input.gearbox.hshifter.switch.default
+00:00:30.722 : [inp] Applying input.misc.xbone.gamepad
+00:00:30.722 : [inp] Applying input.info.xbone.gamepad
+00:00:30.722 : [inp] Classified as: gamepad
+00:00:30.722 : [inp] Analyzing "@@xinput_gamepad@@ 1" "xinput.xinput_gamepad_1"
+00:00:30.722 : [inp] Applying input.steer.xinput.gamepad
+00:00:30.723 : [inp] Applying input.pedals.xinput.gamepad
+00:00:30.723 : [inp] Applying input.clutch.default
+00:00:30.723 : [inp] Applying input.look.xinput.gamepad
+00:00:30.723 : [inp] Applying input.gearbox.updown.xinput.gamepad
+00:00:30.724 : [inp] Applying input.gearbox.drive.default
+00:00:30.724 : [inp] Applying input.gearbox.hshifter.default
+00:00:30.724 : [inp] Applying input.gearbox.hshifter.switch.default
+00:00:30.724 : [inp] Applying input.misc.xinput.gamepad
+00:00:30.724 : [inp] Applying input.info.xinput.gamepad
+00:00:30.724 : [inp] Classified as: gamepad
+00:00:30.725 : [inp] Applying input.steer.xinput.gamepad
+00:00:30.725 : [inp] Applying input.pedals.xinput.gamepad
+00:00:30.725 : [inp] Applying input.clutch.default
+00:00:30.725 : [inp] Applying input.look.xinput.gamepad
+00:00:30.726 : [inp] Applying input.gearbox.updown.xinput.gamepad
+00:00:30.726 : [inp] Applying input.gearbox.drive.default
+00:00:30.726 : [inp] Applying input.gearbox.hshifter.default
+00:00:30.726 : [inp] Applying input.gearbox.hshifter.switch.default
+00:00:30.727 : [inp] Applying input.misc.xinput.gamepad
+00:00:30.727 : [inp] Applying input.info.xbone.gamepad
+00:00:32.768 : Steering controller type identified as: gamepad
+00:00:32.768 : [inp] Applying input.steer.xinput.gamepad
+00:00:32.769 : [inp] Applying input.pedals.xinput.gamepad
+00:00:32.769 : [inp] Applying input.clutch.default
+00:00:32.769 : [inp] Applying input.look.xinput.gamepad
+00:00:32.769 : [inp] Applying input.gearbox.updown.xinput.gamepad
+00:00:32.769 : [inp] Applying input.gearbox.drive.default
+00:00:32.769 : [inp] Applying input.gearbox.hshifter.default
+00:00:32.769 : [inp] Applying input.gearbox.hshifter.switch.default
+00:00:32.769 : [inp] Applying input.misc.xinput.gamepad
+00:00:32.769 : [inp] Applying input.info.xbone.gamepad
+00:00:32.769 : H-shifter HW not detected
+00:01:42.215 : game
+00:01:45.694 : <ERROR> [mover_desc_u] Failed to get model desc meta data
+00:01:45.694 : <ERROR> [mover_model] Unable to load model (mover.greece_47000)
+00:01:45.694 : <ERROR> [mover_action] Failed to get model animation.
+00:01:45.694 : <ERROR> [mover_model] Unable to load animation (mover.greece_47000)
+00:01:45.694 : <ERROR> [mover_desc_u] Failed to get model desc meta data
+00:01:45.694 : <ERROR> [mover_model] Unable to load model (mover.kav_wheel)
+00:01:45.695 : <ERROR> [mover_action] Failed to get model animation.
+00:01:45.695 : <ERROR> [mover_model] Unable to load animation (mover.kav_wheel)
+00:01:45.798 : <WARNING> Missing default icon for cargo 'car_gr'.
+00:01:45.800 : <WARNING> Missing default icon for cargo 'chlorine_t'.
+00:01:45.801 : <WARNING> Missing default icon for cargo 'cott_harvest'.
+00:01:45.806 : <WARNING> Missing default icon for cargo 'horse_tr'.
+00:01:45.806 : <WARNING> Missing default icon for cargo 'hvac'.
+00:01:45.816 : <WARNING> Missing default icon for cargo 'sulfuric_t'.
+00:01:45.817 : <WARNING> Missing default icon for cargo 'ter_forklift'.
+00:01:45.819 : <WARNING> Missing default icon for cargo 'watertank'.
+00:01:45.828 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base.scs | >/unit/hookup/tr_light_flares.sii', line 3:
+00:01:45.828 : <ERROR> [unit] The unit name 'flare.traffic.green' is already taken by an existing unit (of type 'flare_traffic_light').
+00:01:45.828 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/tr_light_flares.sii)
+00:01:46.017 : <ERROR> [flare_u] Scale factor smaller than 1.0 is not supported, should be >= 1.0.
+00:01:46.017 : <ERROR> [unit] The unit 'flare.vehicle.parkl' of type 'flare_vehicle' failed in its post-load hook.
+00:01:46.017 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/vehicle/flare/vehicle_parkl.sii)
+00:01:46.084 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_b.sii', line 3:
+00:01:46.084 : <ERROR> [unit] The unit name 'flare.street.lamp.b' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.084 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_b.sii)
+00:01:46.084 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_b_wide.sii', line 3:
+00:01:46.085 : <ERROR> [unit] The unit name 'flare.street.lamp.b.wide' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.085 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_b_wide.sii)
+00:01:46.086 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_n.sii', line 3:
+00:01:46.086 : <ERROR> [unit] The unit name 'flare.street.lamp.n' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.086 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_n.sii)
+00:01:46.086 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_n_wide.sii', line 3:
+00:01:46.086 : <ERROR> [unit] The unit name 'flare.street.lamp.n.wide' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.086 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_n_wide.sii)
+00:01:46.086 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_y.sii', line 3:
+00:01:46.086 : <ERROR> [unit] The unit name 'flare.street.lamp.y' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.086 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_y.sii)
+00:01:46.087 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/base_share.scs | >/unit/hookup/lights/flares/flare_street_lamp_y_wide.sii', line 3:
+00:01:46.087 : <ERROR> [unit] The unit name 'flare.street.lamp.y.wide' is already taken by an existing unit (of type 'flare_lamp').
+00:01:46.087 : <ERROR> Sii loader: Failed to load units from file (/unit/hookup/lights/flares/flare_street_lamp_y_wide.sii)
+00:01:46.137 : Collecting Vehicle definitions...
+00:01:46.193 : Loaded traffic trailers of type 'truck_semi': 30
+00:01:46.195 : Loaded traffic trailers of type 'truck_long': 0
+00:01:46.201 : Loaded traffic trailers of type 'train_cargo': 12
+00:01:46.210 : Loaded traffic trailers of type 'car': 7
+00:01:46.212 : Loaded traffic trailers of type 'bus': 0
+00:01:46.221 : Loaded traffic trailers of type 'truck': 34
+00:01:46.245 : Loaded traffic trailers of type 'tram': 73
+00:01:46.263 : Loaded traffic trailers of type 'train': 72
+00:01:46.269 : Loaded traffic trailers of type 'special': 11
+00:01:46.884 : Loaded traffic vehicles of type 'car': 95
+00:01:46.983 : Loaded traffic vehicles of type 'car_custom': 53
+00:01:47.323 : Loaded traffic vehicles of type 'truck': 38
+00:01:47.414 : Loaded traffic vehicles of type 'truck_light': 21
+00:01:47.421 : Loaded traffic vehicles of type 'truck_medium': 13
+00:01:47.456 : Loaded traffic vehicles of type 'truck_heavy': 5
+00:01:47.459 : Loaded traffic vehicles of type 'truck_long': 0
+00:01:47.534 : Loaded traffic vehicles of type 'truck_custom': 21
+00:01:47.570 : Loaded traffic vehicles of type 'bus': 18
+00:01:47.580 : Loaded traffic vehicles of type 'bus_custom': 4
+00:01:47.595 : Loaded traffic vehicles of type 'tram': 48
+00:01:47.601 : Loaded traffic vehicles of type 'train': 10
+00:01:47.607 : Loaded traffic vehicles of type 'train_wire': 29
+00:01:47.609 : Loaded traffic vehicles of type 'train_custom': 3
+00:01:47.774 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/vehicle/traffic_storage_police.sii':
+00:01:47.774 : <ERROR> [unit] The unit 'traffic.granta.ru_nn' of type 'traffic_vehicle' has dangling pointer (to 'traffic.focus_2009.pol_ru') in the attribute named 'base'.
+00:01:47.774 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/vehicle/traffic_storage_police.sii':
+00:01:47.774 : <WARNING> [unit] The pointer to 'traffic.focus_2009.pol_ru' looks like dangling pointer.
+00:01:47.774 : <ERROR> load_filtered_unit_array() - Failed to load units from file (/def/vehicle/traffic_storage_police.sii)
+00:01:47.774 : <ERROR> [traffic_vehicle_type] Unable to load vehicle storage from '/def/vehicle/traffic_storage_police.sii'!
+00:01:47.774 : Loaded traffic vehicles of type 'police': 0
+00:01:47.801 : Loaded traffic vehicles of type 'fire': 19
+00:01:47.830 : Loaded traffic vehicles of type 'medical': 19
+00:01:47.832 : Loaded traffic vehicles of type 'escort_front': 1
+00:01:47.834 : Loaded traffic vehicles of type 'escort_back': 1
+00:01:47.846 : Loaded traffic vehicles of type 'special': 6
+00:01:47.848 : Loaded traffic vehicles of type 'moto': 0
+00:01:47.851 : Loaded traffic vehicles of type 'sport': 0
+00:01:47.853 : Loaded traffic vehicles of type 'classic': 0
+00:01:47.855 : Loaded traffic vehicles of type 'truck_bdf': 0
+00:01:47.855 : Loaded addon hookups: 238
+00:01:47.855 : Linking cities with countries...
+00:01:47.856 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.856 : <ERROR> [unit] The unit '_nameless.17c.622d.a370' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <ERROR> [unit] The unit '_nameless.17c.622d.a6d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <ERROR> [unit] The unit '_nameless.17c.622d.bae0' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.al_custom') in the attribute named 'object'.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <WARNING> [unit] The pointer to 'traffic.duster.al_custom' looks like dangling pointer.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <ERROR> [unit] The unit '_nameless.17c.622d.afd0' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.sedan.premium_23.pol_al') in the attribute named 'object'.
+00:01:47.857 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.857 : <WARNING> [unit] The pointer to 'traffic.stepron.sedan.premium_23.pol_al' looks like dangling pointer.
+00:01:47.858 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.858 : <ERROR> [unit] The unit '_nameless.17c.622d.b8d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.al') in the attribute named 'object'.
+00:01:47.858 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/albania/traffic.sii':
+00:01:47.858 : <WARNING> [unit] The pointer to 'traffic.dagger.al' looks like dangling pointer.
+00:01:47.869 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <ERROR> [unit] The unit '_nameless.17c.622d.9f80' of type 'country_traffic_info' has dangling pointer (to 'traffic.vw_touran.pol_at') in the attribute named 'object'.
+00:01:47.870 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <WARNING> [unit] The pointer to 'traffic.vw_touran.pol_at' looks like dangling pointer.
+00:01:47.870 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <ERROR> [unit] The unit '_nameless.17c.622d.99b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.at') in the attribute named 'object'.
+00:01:47.870 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <WARNING> [unit] The pointer to 'traffic.dagger.at' looks like dangling pointer.
+00:01:47.870 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <ERROR> [unit] The unit '_nameless.17c.622d.a0a0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.at') in the attribute named 'object'.
+00:01:47.870 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/austria/traffic.sii':
+00:01:47.870 : <WARNING> [unit] The pointer to 'traffic.crafter.at' looks like dangling pointer.
+00:01:47.874 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/belgium/traffic.sii':
+00:01:47.874 : <ERROR> [unit] The unit '_nameless.17c.622e.4660' of type 'country_traffic_info' has dangling pointer (to 'traffic.audi_a6.pol_be') in the attribute named 'object'.
+00:01:47.874 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/belgium/traffic.sii':
+00:01:47.874 : <WARNING> [unit] The pointer to 'traffic.audi_a6.pol_be' looks like dangling pointer.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <ERROR> [unit] The unit '_nameless.17c.6229.0350' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <ERROR> [unit] The unit '_nameless.17c.6229.0b00' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <ERROR> [unit] The unit '_nameless.17c.6229.6b30' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.ba_custom1') in the attribute named 'object'.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <WARNING> [unit] The pointer to 'traffic.transport_t6.ba_custom1' looks like dangling pointer.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <ERROR> [unit] The unit '_nameless.17c.6229.ad60' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.ba_custom2') in the attribute named 'object'.
+00:01:47.878 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.878 : <WARNING> [unit] The pointer to 'traffic.transport_t6.ba_custom2' looks like dangling pointer.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <ERROR> [unit] The unit '_nameless.17c.6229.bb10' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.sedan.premium_23.pol_ba') in the attribute named 'object'.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <WARNING> [unit] The pointer to 'traffic.stepron.sedan.premium_23.pol_ba' looks like dangling pointer.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <ERROR> [unit] The unit '_nameless.17c.622e.4270' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.combi.premium_23.pol_ba') in the attribute named 'object'.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <WARNING> [unit] The pointer to 'traffic.stepron.combi.premium_23.pol_ba' looks like dangling pointer.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <ERROR> [unit] The unit '_nameless.17c.622e.43f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.t815.ba') in the attribute named 'object'.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <WARNING> [unit] The pointer to 'traffic.t815.ba' looks like dangling pointer.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <ERROR> [unit] The unit '_nameless.17c.622e.4420' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204_ba') in the attribute named 'object'.
+00:01:47.879 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bosnia/traffic.sii':
+00:01:47.879 : <WARNING> [unit] The pointer to 'traffic.p_3204_ba' looks like dangling pointer.
+00:01:47.882 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bulgaria/traffic.sii':
+00:01:47.882 : <ERROR> [unit] The unit '_nameless.17c.622d.63e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.bgeed.pol_bg') in the attribute named 'object'.
+00:01:47.882 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bulgaria/traffic.sii':
+00:01:47.882 : <WARNING> [unit] The pointer to 'traffic.bgeed.pol_bg' looks like dangling pointer.
+00:01:47.882 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bulgaria/traffic.sii':
+00:01:47.882 : <ERROR> [unit] The unit '_nameless.17c.622d.66b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.pol_bg_cus') in the attribute named 'object'.
+00:01:47.883 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/bulgaria/traffic.sii':
+00:01:47.883 : <WARNING> [unit] The pointer to 'traffic.transport_t6.pol_bg_cus' looks like dangling pointer.
+00:01:47.886 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.886 : <ERROR> [unit] The unit '_nameless.17c.622d.9470' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.886 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.886 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <ERROR> [unit] The unit '_nameless.17c.622d.8bd0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <ERROR> [unit] The unit '_nameless.17c.622d.a340' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.combi.premium_23.pol_hr') in the attribute named 'object'.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <WARNING> [unit] The pointer to 'traffic.stepron.combi.premium_23.pol_hr' looks like dangling pointer.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <ERROR> [unit] The unit '_nameless.17c.622d.9770' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.combi.premium_23.hr_customs') in the attribute named 'object'.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <WARNING> [unit] The pointer to 'traffic.stepron.combi.premium_23.hr_customs' looks like dangling pointer.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <ERROR> [unit] The unit '_nameless.17c.622d.98f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.hr') in the attribute named 'object'.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <WARNING> [unit] The pointer to 'traffic.crafter.hr' looks like dangling pointer.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <ERROR> [unit] The unit '_nameless.17c.622d.9860' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.hr') in the attribute named 'object'.
+00:01:47.887 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/croatia/traffic.sii':
+00:01:47.887 : <WARNING> [unit] The pointer to 'traffic.dagger.hr' looks like dangling pointer.
+00:01:47.892 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/czech/traffic.sii':
+00:01:47.892 : <ERROR> [unit] The unit '_nameless.17c.622e.4660' of type 'country_traffic_info' has dangling pointer (to 'traffic.octavia_iii.pol_cz') in the attribute named 'object'.
+00:01:47.892 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/czech/traffic.sii':
+00:01:47.892 : <WARNING> [unit] The pointer to 'traffic.octavia_iii.pol_cz' looks like dangling pointer.
+00:01:47.892 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/czech/traffic.sii':
+00:01:47.892 : <ERROR> [unit] The unit '_nameless.17c.622e.4690' of type 'country_traffic_info' has dangling pointer (to 'traffic.combi.betrude_m5.22.pol_cz') in the attribute named 'object'.
+00:01:47.892 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/czech/traffic.sii':
+00:01:47.892 : <WARNING> [unit] The pointer to 'traffic.combi.betrude_m5.22.pol_cz' looks like dangling pointer.
+00:01:47.895 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/denmark/traffic.sii':
+00:01:47.895 : <ERROR> [unit] The unit '_nameless.17c.6229.5270' of type 'country_traffic_info' has dangling pointer (to 'traffic.passat_2014.pol_dk') in the attribute named 'object'.
+00:01:47.895 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/denmark/traffic.sii':
+00:01:47.895 : <WARNING> [unit] The pointer to 'traffic.passat_2014.pol_dk' looks like dangling pointer.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <ERROR> [unit] The unit '_nameless.17c.622d.b060' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204') in the attribute named 'object'.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <WARNING> [unit] The pointer to 'traffic.p_3204' looks like dangling pointer.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <ERROR> [unit] The unit '_nameless.17c.622d.b1e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204.pass') in the attribute named 'object'.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <WARNING> [unit] The pointer to 'traffic.p_3204.pass' looks like dangling pointer.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <ERROR> [unit] The unit '_nameless.17c.622d.b690' of type 'country_traffic_info' has dangling pointer (to 'traffic.superb.pol_ee') in the attribute named 'object'.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <WARNING> [unit] The pointer to 'traffic.superb.pol_ee' looks like dangling pointer.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <ERROR> [unit] The unit '_nameless.17c.622d.c3b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.superb.pol_ee_old') in the attribute named 'object'.
+00:01:47.899 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/estonia/traffic.sii':
+00:01:47.899 : <WARNING> [unit] The pointer to 'traffic.superb.pol_ee_old' looks like dangling pointer.
+00:01:47.902 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/finland/traffic.sii':
+00:01:47.902 : <ERROR> [unit] The unit '_nameless.17c.622d.5060' of type 'country_traffic_info' has dangling pointer (to 'traffic.mondeo_2009.pol_fi') in the attribute named 'object'.
+00:01:47.903 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/finland/traffic.sii':
+00:01:47.903 : <WARNING> [unit] The pointer to 'traffic.mondeo_2009.pol_fi' looks like dangling pointer.
+00:01:47.903 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/finland/traffic.sii':
+00:01:47.903 : <ERROR> [unit] The unit '_nameless.17c.622d.6710' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.pol_fi_cus') in the attribute named 'object'.
+00:01:47.903 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/finland/traffic.sii':
+00:01:47.903 : <WARNING> [unit] The pointer to 'traffic.transport_t6.pol_fi_cus' looks like dangling pointer.
+00:01:47.907 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/france/traffic.sii':
+00:01:47.907 : <ERROR> [unit] The unit '_nameless.17c.6229.edb0' of type 'country_traffic_info' has dangling pointer (to 'traffic.megane.pol_fr_gen') in the attribute named 'object'.
+00:01:47.907 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/france/traffic.sii':
+00:01:47.907 : <WARNING> [unit] The pointer to 'traffic.megane.pol_fr_gen' looks like dangling pointer.
+00:01:47.910 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.910 : <ERROR> [unit] The unit '_nameless.17c.622d.95f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.de') in the attribute named 'object'.
+00:01:47.910 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.910 : <WARNING> [unit] The pointer to 'traffic.tourliner.de' looks like dangling pointer.
+00:01:47.910 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.910 : <ERROR> [unit] The unit '_nameless.17c.622d.90e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.de_p') in the attribute named 'object'.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <WARNING> [unit] The pointer to 'traffic.tourliner.de_p' looks like dangling pointer.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <ERROR> [unit] The unit '_nameless.17c.622d.9cb0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.cmp_zi') in the attribute named 'object'.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <WARNING> [unit] The pointer to 'traffic.crafter.cmp_zi' looks like dangling pointer.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <ERROR> [unit] The unit '_nameless.17c.622d.9d10' of type 'country_traffic_info' has dangling pointer (to 'traffic.passat_cc.pol_de') in the attribute named 'object'.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <WARNING> [unit] The pointer to 'traffic.passat_cc.pol_de' looks like dangling pointer.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <ERROR> [unit] The unit '_nameless.17c.622d.9dd0' of type 'country_traffic_info' has dangling pointer (to 'traffic.combi.betrude_m5.22.pol_de') in the attribute named 'object'.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <WARNING> [unit] The pointer to 'traffic.combi.betrude_m5.22.pol_de' looks like dangling pointer.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <ERROR> [unit] The unit '_nameless.17c.622d.a0a0' of type 'country_traffic_info' has dangling pointer (to 'traffic.passat_2014.pol_de') in the attribute named 'object'.
+00:01:47.911 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.911 : <WARNING> [unit] The pointer to 'traffic.passat_2014.pol_de' looks like dangling pointer.
+00:01:47.912 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.912 : <ERROR> [unit] The unit '_nameless.17c.622d.9a10' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.de') in the attribute named 'object'.
+00:01:47.912 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.912 : <WARNING> [unit] The pointer to 'traffic.crafter.de' looks like dangling pointer.
+00:01:47.912 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.912 : <ERROR> [unit] The unit '_nameless.17c.622d.a910' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.de_de') in the attribute named 'object'.
+00:01:47.912 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/germany/traffic.sii':
+00:01:47.912 : <WARNING> [unit] The pointer to 'traffic.crafter.de_de' looks like dangling pointer.
+00:01:47.916 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.916 : <ERROR> [unit] The unit '_nameless.17c.621b.a140' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.gr_hw') in the attribute named 'object'.
+00:01:47.916 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.916 : <WARNING> [unit] The pointer to 'traffic.transport_t6.gr_hw' looks like dangling pointer.
+00:01:47.916 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.916 : <ERROR> [unit] The unit '_nameless.17c.621c.12e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.cmp_av') in the attribute named 'object'.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <WARNING> [unit] The pointer to 'traffic.crafter.cmp_av' looks like dangling pointer.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <ERROR> [unit] The unit '_nameless.17c.621c.25d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.gr_p') in the attribute named 'object'.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <WARNING> [unit] The pointer to 'traffic.tourliner.gr_p' looks like dangling pointer.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <ERROR> [unit] The unit '_nameless.17c.621c.39e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.gr') in the attribute named 'object'.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <WARNING> [unit] The pointer to 'traffic.tourliner.gr' looks like dangling pointer.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <ERROR> [unit] The unit '_nameless.17c.623e.fad0' of type 'country_traffic_info' has dangling pointer (to 'traffic.ixcent.pickup.midclass_24.gr') in the attribute named 'object'.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <WARNING> [unit] The pointer to 'traffic.ixcent.pickup.midclass_24.gr' looks like dangling pointer.
+00:01:47.917 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.917 : <ERROR> [unit] The unit '_nameless.17c.623e.ff50' of type 'country_traffic_info' has dangling pointer (to 'traffic.proseld.suv.midclass_24.gr') in the attribute named 'object'.
+00:01:47.918 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.918 : <WARNING> [unit] The pointer to 'traffic.proseld.suv.midclass_24.gr' looks like dangling pointer.
+00:01:47.918 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.918 : <ERROR> [unit] The unit '_nameless.17c.623e.f740' of type 'country_traffic_info' has dangling pointer (to 'traffic.ducato.gr') in the attribute named 'object'.
+00:01:47.918 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.918 : <WARNING> [unit] The pointer to 'traffic.ducato.gr' looks like dangling pointer.
+00:01:47.918 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.918 : <ERROR> [unit] The unit '_nameless.17c.623e.fbf0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.gr') in the attribute named 'object'.
+00:01:47.918 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/greece/traffic.sii':
+00:01:47.918 : <WARNING> [unit] The pointer to 'traffic.dagger.gr' looks like dangling pointer.
+00:01:47.921 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/hungary/traffic.sii':
+00:01:47.921 : <ERROR> [unit] The unit '_nameless.17c.623f.0970' of type 'country_traffic_info' has dangling pointer (to 'traffic.focus_2009.pol_hu') in the attribute named 'object'.
+00:01:47.921 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/hungary/traffic.sii':
+00:01:47.921 : <WARNING> [unit] The pointer to 'traffic.focus_2009.pol_hu' looks like dangling pointer.
+00:01:47.925 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/italy/traffic.sii':
+00:01:47.925 : <ERROR> [unit] The unit '_nameless.17c.623f.1240' of type 'country_traffic_info' has dangling pointer (to 'traffic.a_romeo_159.pol_it_gen') in the attribute named 'object'.
+00:01:47.925 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/italy/traffic.sii':
+00:01:47.925 : <WARNING> [unit] The pointer to 'traffic.a_romeo_159.pol_it_gen' looks like dangling pointer.
+00:01:47.925 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/italy/traffic.sii':
+00:01:47.925 : <ERROR> [unit] The unit '_nameless.17c.623f.1750' of type 'country_traffic_info' has dangling pointer (to 'traffic.huracan.pol_it') in the attribute named 'object'.
+00:01:47.925 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/italy/traffic.sii':
+00:01:47.925 : <WARNING> [unit] The pointer to 'traffic.huracan.pol_it' looks like dangling pointer.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <ERROR> [unit] The unit '_nameless.17c.623f.1fc0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <ERROR> [unit] The unit '_nameless.17c.623f.2200' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <ERROR> [unit] The unit '_nameless.17c.623f.1b40' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.sedan.premium_23.pol_xk') in the attribute named 'object'.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <WARNING> [unit] The pointer to 'traffic.stepron.sedan.premium_23.pol_xk' looks like dangling pointer.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <ERROR> [unit] The unit '_nameless.17c.623f.1ab0' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.xk_custom') in the attribute named 'object'.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <WARNING> [unit] The pointer to 'traffic.duster.xk_custom' looks like dangling pointer.
+00:01:47.929 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.929 : <ERROR> [unit] The unit '_nameless.17c.623f.1c30' of type 'country_traffic_info' has dangling pointer (to 'traffic.ducato.xk') in the attribute named 'object'.
+00:01:47.930 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.930 : <WARNING> [unit] The pointer to 'traffic.ducato.xk' looks like dangling pointer.
+00:01:47.930 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.930 : <ERROR> [unit] The unit '_nameless.17c.623f.1cc0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.xk') in the attribute named 'object'.
+00:01:47.930 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/kosovo/traffic.sii':
+00:01:47.930 : <WARNING> [unit] The pointer to 'traffic.dagger.xk' looks like dangling pointer.
+00:01:47.933 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.933 : <ERROR> [unit] The unit '_nameless.17c.623f.17b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204') in the attribute named 'object'.
+00:01:47.933 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.933 : <WARNING> [unit] The pointer to 'traffic.p_3204' looks like dangling pointer.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <ERROR> [unit] The unit '_nameless.17c.623f.1000' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204.pass') in the attribute named 'object'.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <WARNING> [unit] The pointer to 'traffic.p_3204.pass' looks like dangling pointer.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <ERROR> [unit] The unit '_nameless.17c.623f.1150' of type 'country_traffic_info' has dangling pointer (to 'traffic.laguna.pol_lv_old') in the attribute named 'object'.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <WARNING> [unit] The pointer to 'traffic.laguna.pol_lv_old' looks like dangling pointer.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <ERROR> [unit] The unit '_nameless.17c.623f.1240' of type 'country_traffic_info' has dangling pointer (to 'traffic.laguna.pol_lv') in the attribute named 'object'.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <WARNING> [unit] The pointer to 'traffic.laguna.pol_lv' looks like dangling pointer.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <ERROR> [unit] The unit '_nameless.17c.623f.13f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.pol_lv_cus') in the attribute named 'object'.
+00:01:47.934 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/latvia/traffic.sii':
+00:01:47.934 : <WARNING> [unit] The pointer to 'traffic.transport_t6.pol_lv_cus' looks like dangling pointer.
+00:01:47.937 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.937 : <ERROR> [unit] The unit '_nameless.17c.623f.2e60' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204') in the attribute named 'object'.
+00:01:47.937 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.937 : <WARNING> [unit] The pointer to 'traffic.p_3204' looks like dangling pointer.
+00:01:47.937 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.937 : <ERROR> [unit] The unit '_nameless.17c.623f.2e90' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204.pass') in the attribute named 'object'.
+00:01:47.937 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.937 : <WARNING> [unit] The pointer to 'traffic.p_3204.pass' looks like dangling pointer.
+00:01:47.938 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.938 : <ERROR> [unit] The unit '_nameless.17c.623f.28c0' of type 'country_traffic_info' has dangling pointer (to 'traffic.octavia_iii.pol_lt') in the attribute named 'object'.
+00:01:47.938 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.938 : <WARNING> [unit] The pointer to 'traffic.octavia_iii.pol_lt' looks like dangling pointer.
+00:01:47.938 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.938 : <ERROR> [unit] The unit '_nameless.17c.623f.25f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.pol_lt_cus') in the attribute named 'object'.
+00:01:47.938 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/lithuania/traffic.sii':
+00:01:47.938 : <WARNING> [unit] The pointer to 'traffic.crafter.pol_lt_cus' looks like dangling pointer.
+00:01:47.942 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/luxembourg/traffic.sii':
+00:01:47.942 : <ERROR> [unit] The unit '_nameless.17c.623f.1870' of type 'country_traffic_info' has dangling pointer (to 'traffic.passat_cc.pol_lu') in the attribute named 'object'.
+00:01:47.942 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/luxembourg/traffic.sii':
+00:01:47.942 : <WARNING> [unit] The pointer to 'traffic.passat_cc.pol_lu' looks like dangling pointer.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <ERROR> [unit] The unit '_nameless.17c.623f.2710' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <ERROR> [unit] The unit '_nameless.17c.623f.25f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <ERROR> [unit] The unit '_nameless.17c.623f.2530' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.mk') in the attribute named 'object'.
+00:01:47.945 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.945 : <WARNING> [unit] The pointer to 'traffic.duster.mk' looks like dangling pointer.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <ERROR> [unit] The unit '_nameless.17c.623f.2590' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.sedan.premium_23.mk_customs') in the attribute named 'object'.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <WARNING> [unit] The pointer to 'traffic.stepron.sedan.premium_23.mk_customs' looks like dangling pointer.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <ERROR> [unit] The unit '_nameless.17c.623f.25c0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.mk') in the attribute named 'object'.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <WARNING> [unit] The pointer to 'traffic.dagger.mk' looks like dangling pointer.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <ERROR> [unit] The unit '_nameless.17c.623f.2b90' of type 'country_traffic_info' has dangling pointer (to 'traffic.ducato.mk') in the attribute named 'object'.
+00:01:47.946 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/macedonia/traffic.sii':
+00:01:47.946 : <WARNING> [unit] The pointer to 'traffic.ducato.mk' looks like dangling pointer.
+00:01:47.949 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.949 : <ERROR> [unit] The unit '_nameless.17c.623f.3850' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.949 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.949 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.949 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.949 : <ERROR> [unit] The unit '_nameless.17c.623f.3b80' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <ERROR> [unit] The unit '_nameless.17c.623f.4750' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.me') in the attribute named 'object'.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <WARNING> [unit] The pointer to 'traffic.duster.me' looks like dangling pointer.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <ERROR> [unit] The unit '_nameless.17c.623f.3f70' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.me_custom') in the attribute named 'object'.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <WARNING> [unit] The pointer to 'traffic.duster.me_custom' looks like dangling pointer.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <ERROR> [unit] The unit '_nameless.17c.623f.4150' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.me') in the attribute named 'object'.
+00:01:47.950 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/montenegro/traffic.sii':
+00:01:47.950 : <WARNING> [unit] The pointer to 'traffic.dagger.me' looks like dangling pointer.
+00:01:47.956 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/netherlands/traffic.sii':
+00:01:47.956 : <ERROR> [unit] The unit '_nameless.17c.623f.4c30' of type 'country_traffic_info' has dangling pointer (to 'traffic.vw_touran.pol_nl') in the attribute named 'object'.
+00:01:47.956 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/netherlands/traffic.sii':
+00:01:47.956 : <WARNING> [unit] The pointer to 'traffic.vw_touran.pol_nl' looks like dangling pointer.
+00:01:47.961 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/norway/traffic.sii':
+00:01:47.961 : <ERROR> [unit] The unit '_nameless.17c.623f.5cb0' of type 'country_traffic_info' has dangling pointer (to 'traffic.passat_2014.pol_no') in the attribute named 'object'.
+00:01:47.961 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/norway/traffic.sii':
+00:01:47.961 : <WARNING> [unit] The pointer to 'traffic.passat_2014.pol_no' looks like dangling pointer.
+00:01:47.964 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.964 : <ERROR> [unit] The unit '_nameless.17c.623f.7540' of type 'country_traffic_info' has dangling pointer (to 'traffic.k_ceed_c.pol_pl') in the attribute named 'object'.
+00:01:47.965 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.965 : <WARNING> [unit] The pointer to 'traffic.k_ceed_c.pol_pl' looks like dangling pointer.
+00:01:47.965 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.965 : <ERROR> [unit] The unit '_nameless.17c.623f.7210' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.pol_pl_cus') in the attribute named 'object'.
+00:01:47.965 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.965 : <WARNING> [unit] The pointer to 'traffic.transport_t6.pol_pl_cus' looks like dangling pointer.
+00:01:47.965 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.965 : <ERROR> [unit] The unit '_nameless.17c.623f.7480' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204') in the attribute named 'object'.
+00:01:47.965 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.965 : <WARNING> [unit] The pointer to 'traffic.p_3204' looks like dangling pointer.
+00:01:47.966 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.966 : <ERROR> [unit] The unit '_nameless.17c.623f.6f40' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204.pass') in the attribute named 'object'.
+00:01:47.966 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/poland/traffic.sii':
+00:01:47.966 : <WARNING> [unit] The pointer to 'traffic.p_3204.pass' looks like dangling pointer.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <ERROR> [unit] The unit '_nameless.17c.623f.59e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.t815.pt') in the attribute named 'object'.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <WARNING> [unit] The pointer to 'traffic.t815.pt' looks like dangling pointer.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <ERROR> [unit] The unit '_nameless.17c.623f.5c80' of type 'country_traffic_info' has dangling pointer (to 'traffic.superb.pol_pt_gnr') in the attribute named 'object'.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <WARNING> [unit] The pointer to 'traffic.superb.pol_pt_gnr' looks like dangling pointer.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <ERROR> [unit] The unit '_nameless.17c.623f.5e30' of type 'country_traffic_info' has dangling pointer (to 'traffic.captur.pol_pt_psp') in the attribute named 'object'.
+00:01:47.970 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/portugal/traffic.sii':
+00:01:47.970 : <WARNING> [unit] The pointer to 'traffic.captur.pol_pt_psp' looks like dangling pointer.
+00:01:47.973 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/romania/traffic.sii':
+00:01:47.973 : <ERROR> [unit] The unit '_nameless.17c.623f.63d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.galon.pol_ro') in the attribute named 'object'.
+00:01:47.974 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/romania/traffic.sii':
+00:01:47.974 : <WARNING> [unit] The pointer to 'traffic.galon.pol_ro' looks like dangling pointer.
+00:01:47.974 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/romania/traffic.sii':
+00:01:47.974 : <ERROR> [unit] The unit '_nameless.17c.623f.67c0' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.ro_customs') in the attribute named 'object'.
+00:01:47.974 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/romania/traffic.sii':
+00:01:47.974 : <WARNING> [unit] The pointer to 'traffic.duster.ro_customs' looks like dangling pointer.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <ERROR> [unit] The unit '_nameless.17c.623f.7660' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204') in the attribute named 'object'.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <WARNING> [unit] The pointer to 'traffic.p_3204' looks like dangling pointer.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <ERROR> [unit] The unit '_nameless.17c.623f.76c0' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204.pass') in the attribute named 'object'.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <WARNING> [unit] The pointer to 'traffic.p_3204.pass' looks like dangling pointer.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <ERROR> [unit] The unit '_nameless.17c.623f.7cc0' of type 'country_traffic_info' has dangling pointer (to 'traffic.p_3204_ru') in the attribute named 'object'.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <WARNING> [unit] The pointer to 'traffic.p_3204_ru' looks like dangling pointer.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <ERROR> [unit] The unit '_nameless.17c.623f.8500' of type 'country_traffic_info' has dangling pointer (to 'traffic.focus_2009.pol_ru') in the attribute named 'object'.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <WARNING> [unit] The pointer to 'traffic.focus_2009.pol_ru' looks like dangling pointer.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <ERROR> [unit] The unit '_nameless.17c.623f.8fb0' of type 'country_traffic_info' has dangling pointer (to 'traffic.ava_469.pol_ru_cus') in the attribute named 'object'.
+00:01:47.977 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/russia/traffic.sii':
+00:01:47.977 : <WARNING> [unit] The pointer to 'traffic.ava_469.pol_ru_cus' looks like dangling pointer.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <ERROR> [unit] The unit '_nameless.17c.623f.7de0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <ERROR> [unit] The unit '_nameless.17c.623f.7b10' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <ERROR> [unit] The unit '_nameless.17c.623f.81d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.duster.rs_custom') in the attribute named 'object'.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <WARNING> [unit] The pointer to 'traffic.duster.rs_custom' looks like dangling pointer.
+00:01:47.982 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.982 : <ERROR> [unit] The unit '_nameless.17c.623f.79f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.stepron.sedan.premium_23.pol_rs') in the attribute named 'object'.
+00:01:47.983 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.983 : <WARNING> [unit] The pointer to 'traffic.stepron.sedan.premium_23.pol_rs' looks like dangling pointer.
+00:01:47.983 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.983 : <ERROR> [unit] The unit '_nameless.17c.623f.8260' of type 'country_traffic_info' has dangling pointer (to 'traffic.ducato.rs') in the attribute named 'object'.
+00:01:47.983 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.983 : <WARNING> [unit] The pointer to 'traffic.ducato.rs' looks like dangling pointer.
+00:01:47.983 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.983 : <ERROR> [unit] The unit '_nameless.17c.623f.8680' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.rs') in the attribute named 'object'.
+00:01:47.983 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/serbia/traffic.sii':
+00:01:47.983 : <WARNING> [unit] The pointer to 'traffic.dagger.rs' looks like dangling pointer.
+00:01:47.987 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovakia/traffic.sii':
+00:01:47.987 : <ERROR> [unit] The unit '_nameless.17c.623f.8290' of type 'country_traffic_info' has dangling pointer (to 'traffic.k_ceed_c.pol_sk') in the attribute named 'object'.
+00:01:47.987 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovakia/traffic.sii':
+00:01:47.987 : <WARNING> [unit] The pointer to 'traffic.k_ceed_c.pol_sk' looks like dangling pointer.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <ERROR> [unit] The unit '_nameless.17c.623f.95b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk_p') in the attribute named 'object'.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk_p' looks like dangling pointer.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <ERROR> [unit] The unit '_nameless.17c.623f.98b0' of type 'country_traffic_info' has dangling pointer (to 'traffic.tourliner.blk') in the attribute named 'object'.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <WARNING> [unit] The pointer to 'traffic.tourliner.blk' looks like dangling pointer.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <ERROR> [unit] The unit '_nameless.17c.623f.91c0' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.sl_custom') in the attribute named 'object'.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <WARNING> [unit] The pointer to 'traffic.transport_t6.sl_custom' looks like dangling pointer.
+00:01:47.991 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.991 : <ERROR> [unit] The unit '_nameless.17c.623f.9970' of type 'country_traffic_info' has dangling pointer (to 'traffic.combi.premium_23.pol_sl') in the attribute named 'object'.
+00:01:47.992 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.992 : <WARNING> [unit] The pointer to 'traffic.combi.premium_23.pol_sl' looks like dangling pointer.
+00:01:47.992 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.992 : <ERROR> [unit] The unit '_nameless.17c.623f.9550' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.sl') in the attribute named 'object'.
+00:01:47.992 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.992 : <WARNING> [unit] The pointer to 'traffic.crafter.sl' looks like dangling pointer.
+00:01:47.992 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.992 : <ERROR> [unit] The unit '_nameless.17c.623f.9040' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.sl') in the attribute named 'object'.
+00:01:47.992 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/slovenia/traffic.sii':
+00:01:47.992 : <WARNING> [unit] The pointer to 'traffic.dagger.sl' looks like dangling pointer.
+00:01:47.996 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.996 : <ERROR> [unit] The unit '_nameless.17c.623f.a210' of type 'country_traffic_info' has dangling pointer (to 'traffic.t815.es') in the attribute named 'object'.
+00:01:47.996 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.996 : <WARNING> [unit] The pointer to 'traffic.t815.es' looks like dangling pointer.
+00:01:47.996 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.996 : <ERROR> [unit] The unit '_nameless.17c.623f.a270' of type 'country_traffic_info' has dangling pointer (to 'traffic.ortiz_combi.pol_es_es') in the attribute named 'object'.
+00:01:47.997 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.997 : <WARNING> [unit] The pointer to 'traffic.ortiz_combi.pol_es_es' looks like dangling pointer.
+00:01:47.997 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.997 : <ERROR> [unit] The unit '_nameless.17c.623f.a6f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.es') in the attribute named 'object'.
+00:01:47.997 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/spain/traffic.sii':
+00:01:47.997 : <WARNING> [unit] The pointer to 'traffic.crafter.es' looks like dangling pointer.
+00:01:48.000 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/sweden/traffic.sii':
+00:01:48.000 : <ERROR> [unit] The unit '_nameless.17c.623f.9e20' of type 'country_traffic_info' has dangling pointer (to 'traffic.volvo_xc70.pol_se') in the attribute named 'object'.
+00:01:48.000 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/sweden/traffic.sii':
+00:01:48.000 : <WARNING> [unit] The pointer to 'traffic.volvo_xc70.pol_se' looks like dangling pointer.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <ERROR> [unit] The unit '_nameless.17c.623f.bc20' of type 'country_traffic_info' has dangling pointer (to 'traffic.combi.betrude_m5.22.pol_ch') in the attribute named 'object'.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <WARNING> [unit] The pointer to 'traffic.combi.betrude_m5.22.pol_ch' looks like dangling pointer.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <ERROR> [unit] The unit '_nameless.17c.623f.be60' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.ch') in the attribute named 'object'.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <WARNING> [unit] The pointer to 'traffic.dagger.ch' looks like dangling pointer.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <ERROR> [unit] The unit '_nameless.17c.623f.b4d0' of type 'country_traffic_info' has dangling pointer (to 'traffic.crafter.ch') in the attribute named 'object'.
+00:01:48.004 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/switzerland/traffic.sii':
+00:01:48.004 : <WARNING> [unit] The pointer to 'traffic.crafter.ch' looks like dangling pointer.
+00:01:48.007 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.007 : <ERROR> [unit] The unit '_nameless.17c.623f.b8f0' of type 'country_traffic_info' has dangling pointer (to 'traffic.toyco.pol_tr') in the attribute named 'object'.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <WARNING> [unit] The pointer to 'traffic.toyco.pol_tr' looks like dangling pointer.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <ERROR> [unit] The unit '_nameless.17c.623f.b470' of type 'country_traffic_info' has dangling pointer (to 'traffic.transport_t6.pol_tr_cus') in the attribute named 'object'.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <WARNING> [unit] The pointer to 'traffic.transport_t6.pol_tr_cus' looks like dangling pointer.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <ERROR> [unit] The unit '_nameless.17c.623f.b9e0' of type 'country_traffic_info' has dangling pointer (to 'traffic.dagger.tr') in the attribute named 'object'.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <WARNING> [unit] The pointer to 'traffic.dagger.tr' looks like dangling pointer.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <ERROR> [unit] The unit '_nameless.17c.623f.bf20' of type 'country_traffic_info' has dangling pointer (to 'traffic.t815.tr') in the attribute named 'object'.
+00:01:48.008 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/turkey/traffic.sii':
+00:01:48.008 : <WARNING> [unit] The pointer to 'traffic.t815.tr' looks like dangling pointer.
+00:01:48.011 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/uk/traffic.sii':
+00:01:48.011 : <ERROR> [unit] The unit '_nameless.17c.623f.c400' of type 'country_traffic_info' has dangling pointer (to 'traffic.jaguar_xf.pol_uk') in the attribute named 'object'.
+00:01:48.011 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/uk/traffic.sii':
+00:01:48.011 : <WARNING> [unit] The pointer to 'traffic.jaguar_xf.pol_uk' looks like dangling pointer.
+00:01:48.011 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/uk/traffic.sii':
+00:01:48.011 : <ERROR> [unit] The unit '_nameless.17c.623f.ceb0' of type 'country_traffic_info' has dangling pointer (to 'traffic.combi.betrude_m5.22.pol_uk') in the attribute named 'object'.
+00:01:48.011 : <ERROR> [unit] File '<C:/Program Files (x86)/Steam/steamapps/common/Euro Truck Simulator 2/def.scs | >/def/country/uk/traffic.sii':
+00:01:48.011 : <WARNING> [unit] The pointer to 'traffic.combi.betrude_m5.22.pol_uk' looks like dangling pointer.
+00:01:48.014 : Collecting prefab descriptors...
+00:01:48.421 : Loading prefab descriptors...
+00:01:48.816 : Loading ferry connections...
+00:01:48.816 : <ERROR> Cannot find source ferry data: ancona
+00:01:48.816 : <ERROR> Cannot find source ferry data: bari
+00:01:48.816 : Loading cargo trailer assignment...
+00:01:48.917 : Loading company cargo assignment...
+00:01:53.271 : [physx] @0: Starting server.
+00:01:53.271 : [physx] @0: Creating reporter.
+00:01:53.271 : [physx] @0: Created foundation version 1.0.0.
+00:01:53.271 : [physx] @0: Created physics version 3.4.3.
+00:01:53.271 : [physx] @0: Initialized extensions.
+00:01:53.272 : [physx] @0: Created CPU dispatcher with 2 threads and logical CPU affinities:
+00:01:53.272 : [physx] @0: CPU          0   1   2   3   4   5   6   7   8   9  10  11
+00:01:53.272 : [physx] @0: thread   0   *   *   *   *   *   *   *   *   *   *   *   *
+00:01:53.272 : [physx] @0: thread   1   *   *   *   *   *   *   *   *   *   *   *   *
+00:01:53.272 : [physx] @0: Created convex cooking.
+00:01:53.272 : [physx] @0: Created fast triangle cooking.
+00:01:53.272 : [physx] @0: Created optimal triangle cooking.
+00:01:53.272 : [physx] @0: Creating simulation filter.
+00:01:53.272 : [bullet] Starting server
+00:01:53.273 : [physx] @0: Creating debug draw.
+00:01:53.366 : Map '/map/europe.mbd' loading started ....
+00:01:53.394 : <WARNING> Excessive sector boundary detected! (sec+0014+0012, [59795, 55361])
+00:01:53.490 : <WARNING> Unable to find 'city.winsen' for 'City' 0x4CEAF944D5330001
+00:01:53.522 : <WARNING> Unable to find 'city.koper' for 'City' 0x4A12BCCC0FC614B5
+00:01:53.541 : <WARNING> Unable to find 'city.ljubljana' for 'City' 0x4A12BCCC21463966
+00:01:53.541 : <WARNING> Unable to find 'city.ljubljana' for 'City' 0x4A12BCCCC64639DA
+00:01:53.542 : <WARNING> Unable to find 'city.ljubljana' for 'City' 0x4A12BCD403461E05
+00:01:53.546 : <WARNING> Unable to find 'city.rijeka' for 'City' 0x4A12BCCCD546125F
+00:01:53.547 : <WARNING> Unable to find 'city.rijeka' for 'City' 0x4CDF99EC1967043B
+00:01:53.557 : <WARNING> Unable to find 'city.maribor' for 'City' 0x4A12BCCCA1C61572
+00:01:53.580 : <WARNING> Unable to find 'city.osijek' for 'City' 0x4A12BCCCBC06084B
+00:01:53.580 : <WARNING> Unable to find 'city.osijek' for 'City' 0x4A12BCCCD4C60E8E
+00:01:53.582 : <WARNING> Unable to find 'city.szeged' for 'City' 0x14FF8EDA21000F7
+00:01:53.582 : <WARNING> Unable to find 'city.novi_sad' for 'City' 0x4A12BCD0EEC64763
+00:01:53.584 : <WARNING> Unable to find 'city.szeged' for 'City' 0x142EB1DDD100018
+00:01:53.586 : <WARNING> Unable to find 'city.resita' for 'City' 0x2C74B6FCBD160001
+00:01:53.587 : <WARNING> Unable to find 'city.beograd' for 'City' 0x4A12BCCCC0C60CC3
+00:01:53.587 : <WARNING> Unable to find 'city.beograd' for 'City' 0x4A12BCCCCA060767
+00:01:53.587 : <WARNING> Unable to find 'city.beograd' for 'City' 0x4A12BCD8DA86A533
+00:01:53.589 : <WARNING> Unable to find 'city.kaliningrad' for 'City' 0x2738E91C4BC10001
+00:01:53.591 : <WARNING> Unable to find 'city.kragujevac' for 'City' 0x4A12BCCC80460142
+00:01:53.591 : <WARNING> Unable to find 'city.nis' for 'City' 0x4A12BCCCA7C61334
+00:01:53.591 : <WARNING> Unable to find 'city.nis' for 'City' 0x4A12BCCCBC06158E
+00:01:53.594 : <WARNING> Unable to find 'city.nis' for 'City' 0x4A12BCCC9D0602E4
+00:01:53.595 : <WARNING> Unable to find 'city.nis' for 'City' 0x4A12BCD4F9C64319
+00:01:53.597 : <WARNING> Unable to find 'city.skopje' for 'City' 0x4A12BCCC06C6131C
+00:01:53.601 : <WARNING> Unable to find 'city.bitola' for 'City' 0x4A12BCCC54C60C2E
+00:01:53.601 : <WARNING> Unable to find 'city.bitola' for 'City' 0x4A12BCCCA2C620D2
+00:01:53.601 : <WARNING> Unable to find 'city.bitola' for 'City' 0x4A12BCD45446734A
+00:01:53.602 : <WARNING> Unable to find 'city.bitola' for 'City' 0x4D591080812F0000
+00:01:53.614 : <WARNING> Unable to find 'city.kavala' for 'City' 0x52C03083BF065FC0
+00:01:53.620 : <WARNING> Unable to find 'city.pskov' for 'City' 0x26FE9C9843490000
+00:01:53.621 : <WARNING> Unable to find 'city.pskov' for 'City' 0x219D98B4ABC70000
+00:01:53.621 : <WARNING> Unable to find 'city.pskov' for 'City' 0x26DEE88CBE090001
+00:01:53.621 : <WARNING> Unable to find 'city.pskov' for 'City' 0x26DEE978F8090000
+00:01:53.624 : <WARNING> Unable to find 'city.kavala' for 'City' 0x52C03083438658F0
+00:01:53.628 : <WARNING> Unable to find 'city.luga' for 'City' 0x219D990494070000
+00:01:53.628 : <WARNING> Unable to find 'city.luga' for 'City' 0x267F4B080C410001
+00:01:53.628 : <WARNING> Unable to find 'city.v_novgorod' for 'City' 0x348D1F9C950A0001
+00:01:53.629 : <WARNING> Unable to find 'city.petersburg' for 'City' 0x29676FF8268D03D7
+00:01:53.631 : <WARNING> Unable to find 'city.petersburg' for 'City' 0x26BA267CFB860000
+00:01:53.631 : <WARNING> Unable to find 'city.petersburg' for 'City' 0x26BA28B429060000
+00:01:53.631 : <WARNING> Unable to find 'city.petersburg' for 'City' 0x26BA2AC09DC60000
+00:01:53.631 : <WARNING> Unable to find 'city.petersburg' for 'City' 0x26BA2B84DF460000
+00:01:53.632 : <WARNING> Unable to find 'city.volkhov' for 'City' 0x348D21949D0A0001
+00:01:53.633 : <WARNING> Unable to find 'city.volkhov' for 'City' 0x3D3D6AEC96CA0000
+00:01:53.633 : <WARNING> Unable to find 'city.volkhov' for 'City' 0x3D3D6B54A64A0000
+00:01:53.633 : <WARNING> Unable to find 'city.kirishi' for 'City' 0x3DE08B24E4160000
+00:01:53.633 : <WARNING> Unable to find 'city.kirishi' for 'City' 0x420FBBA887D60AC6
+00:01:53.642 : <WARNING> Unable to find 'city.suzzara' for 'City' 0x7A0AF909BEB0000
+00:01:53.675 : <WARNING> Unable to find 'city.parma' for 'City' 0x7794BF639BB0001
+00:01:53.676 : <WARNING> Unable to find 'city.olbia' for 'City' 0x2C4FBD9C7A870000
+00:01:53.700 : <WARNING> Unable to find 'city.genova' for 'City' 0x76E9D6BFB9B0001
+00:01:53.703 : <WARNING> Unable to find 'city.sassari' for 'City' 0x2C4FADE0DFC70000
+00:01:53.703 : <WARNING> Unable to find 'city.sassari' for 'City' 0x2C4FB09CD0470000
+00:01:53.703 : <WARNING> Unable to find 'city.sassari' for 'City' 0x2C4FB21CE5070000
+00:01:53.703 : <WARNING> Unable to find 'city.olbia' for 'City' 0x2C4FBC04BE870000
+00:01:53.703 : <WARNING> Unable to find 'city.bonifacio' for 'City' 0x2F99EB34DD070001
+00:01:53.710 : <WARNING> Unable to find 'city.werlte' for 'City' 0x456B2570E7D102BC
+00:01:53.729 : <WARNING> Unable to find 'city.sassari' for 'City' 0x2C4FACBCDD070000
+00:01:54.057 : <ERROR> Missing data for ferry item! (ferry.portotorres, uid: 0x2FEEFBFCC9C70001)
+00:01:54.070 : Map base sectors successfully loaded.
+00:01:54.071 : Map loaded
+00:01:54.475 : Loading save. Type: 0, slot: 0, path: <MEMFILE><UFS>/steam/profiles/4644474F442063736661696C6E65742072756E20/save/autosave/game.sii
+00:01:54.525 : Route data generation started.
+00:01:54.655 : Route data generation finished.
+00:01:54.656 : Economy reset - save version changed, assuming map mismatch
+00:01:54.671 : Economy reset - company mismatch
+00:01:54.699 : Road network navigation caching started.
+00:01:55.819 : Generate navigation data takes 1040 ms.
+00:01:55.930 : Current profile saved.
+00:01:56.379 : Garage update started.
+00:01:56.380 : <ERROR> Garage prefab not found! (rijeka)
+00:01:56.428 : Garage update finished.
+00:01:56.924 : [actor] Initialized at [-2263.5;19.4;-15594.2]
+00:01:57.070 : Current profile saved.
+00:01:57.657 : <ERROR> Failed to find service prefab uid:0x4A12BCCC07060C50
+00:02:06.383 : Sector force started.
+00:02:06.483 : Sector force finished.
+00:02:06.641 : [actor] Teleported from [-2263.5;19.4;-15594.2] to [11005.5;7.5;-27204.4]
+00:02:21.013 : g_mode 1920 1200 144 1
+00:02:21.019 : [dx11] Backbuffer released
+00:02:21.022 : [dxgi] Resizing backbuffers: 1920 1200 (flags: 800)
+00:02:21.035 : [dx11] Backbuffer acquired
+00:02:38.319 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/renault_megane/chassis.sii' in the read_only mode.
+00:02:38.319 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/renault_megane/chassis.sii' in the read_only mode.
+00:02:38.351 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/renault_megane/chassis.sii' in the read_only mode.
+00:02:38.352 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/renault_megane/chassis.sii' in the read_only mode.
+00:02:38.352 : <ERROR> load_unit() - Failed to open file (/def/vehicle/ai/renault_megane/chassis.sii)
+00:02:38.352 : <ERROR> [traffic_vehicle] Unable to cache model instances!
+00:02:42.251 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/transporter_t6/generic.sii' in the read_only mode.
+00:02:42.251 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/transporter_t6/generic.sii' in the read_only mode.
+00:02:42.297 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/transporter_t6/generic.sii' in the read_only mode.
+00:02:42.297 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/transporter_t6/generic.sii' in the read_only mode.
+00:02:42.297 : <ERROR> load_unit() - Failed to open file (/def/vehicle/ai/transporter_t6/generic.sii)
+00:02:42.317 : <ERROR> [traffic_vehicle] Unable to cache model instances!
+00:03:02.298 : Current profile saved.
+00:03:05.427 : [used_vehicles] 1 used truck offers have expired (29 offers valid)
+00:03:08.707 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/daily/korba.sii' in the read_only mode.
+00:03:08.707 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/daily/korba.sii' in the read_only mode.
+00:03:08.763 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/daily/korba.sii' in the read_only mode.
+00:03:08.763 : <ERROR> [fs] Failed to open file '/def/vehicle/ai/daily/korba.sii' in the read_only mode.
+00:03:08.763 : <ERROR> load_unit() - Failed to open file (/def/vehicle/ai/daily/korba.sii)
+00:03:08.776 : <ERROR> [traffic_vehicle] Unable to cache model instances!
+00:03:17.603 : Current profile saved.
+00:03:30.619 : g_mode 1920 1200 144 1
+00:03:30.626 : [dx11] Backbuffer released
+00:03:30.627 : [dxgi] Resizing backbuffers: 1920 1200 (flags: 800)
+00:03:30.638 : [dx11] Backbuffer acquired
+00:03:50.078 : <ERROR> [traffic_vehicle] Unable to cache model instances!
+00:03:58.692 : quit
+00:03:58.741 : Game save completed
+00:03:58.741 : quit
+00:03:58.847 : [physx] @3508: Destroying debug draw.
+00:03:58.848 : [physx] @0: Stopping server.
+00:03:58.848 : [physx] @0: Destroying simulation filter.
+00:03:58.848 : [physx] @0: Destroying optimal triangle cooking.
+00:03:58.848 : [physx] @0: Destroying fast triangle cooking.
+00:03:58.848 : [physx] @0: Destroying convex cooking.
+00:03:58.848 : [physx] @0: Destroying CPU dispatcher.
+00:03:58.848 : [physx] @0: Deinitializing extensions.
+00:03:58.848 : [physx] @0: Destroying physics.
+00:03:58.848 : [physx] @0: Destroying foundation.
+00:03:58.848 : [physx] @0: Destroying reporter.
+00:03:58.848 : [bullet] Stopping server
+00:03:59.277 : [sound] Sound library - shutdown.
+00:03:59.277 : [sound] Sound system - shutdown.
+00:03:59.606 : [sound] FMOD libraries released.
+00:03:59.649 : [net]  LOG INFO: Stopped
+00:03:59.652 : [hashfs] dlc_winter.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_wielton.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_volvo_tuning_pack.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_volvo_fh_2024.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_volvo_fh_2021.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_volvo_construction.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_vikings.scs: Unmounted.
+00:03:59.652 : [hashfs] dlc_valentine.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_trailers.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_toys.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_tirsan.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_super_stripes.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_streetart.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_space.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_schwarzmuller.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_schmitz.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_scania_s_2024e.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_rocket_league.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_rims.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_renault_t_tuning.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_renault_etech_t.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_raven.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_prehistoric.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_pirates.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_pink_ribbon.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_phys_flags.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_pcg.scs: Unmounted.
+00:03:59.653 : [hashfs] dlc_oversize.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_north.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_nature.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_mighty_griffin.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_michelin.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_metallics2.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_metallics.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_man_tgx_2020.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_lunar_new_year.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_lines.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_krone_agriculture.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_krone.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_kogel.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_kassbohrer.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_jcb.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_iveco_sway.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_hs_schoch.scs: Unmounted.
+00:03:59.654 : [hashfs] dlc_heavy_cargo.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_halloween.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_greek_paintjobs.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_goodyear.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_us.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_ukr.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_uk.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_tr.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_sk.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_sc.scs: Unmounted.
+00:03:59.655 : [hashfs] dlc_flags_s.scs: Unmounted.
+00:03:59.657 : [hashfs] dlc_flags_ru.scs: Unmounted.
+00:03:59.657 : [hashfs] dlc_flags_ro.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_pt.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_pl.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_nl.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_n.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_lv.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_lt.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_kr.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_jp.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_it.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_ie.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_hu.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_fr.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_fi.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_es.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_ee.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_dk.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_de.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_cz.scs: Unmounted.
+00:03:59.658 : [hashfs] dlc_flags_cn.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_ch.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_ca.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_bz.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_bg.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_be.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_aus.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_flags_at.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_feldbinder.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_farm_machinery.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_fantasy.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_dragon.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_daf_xd.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_daf_tuning_pack.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_daf_2021.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_christmas.scs: Unmounted.
+00:03:59.659 : [hashfs] dlc_actros_tuning.scs: Unmounted.
+00:03:59.660 : [hashfs] universal.scs: Unmounted.
+00:03:59.661 : [zipfs] 154.zip: Unmounted
+00:03:59.661 : [hashfs] sound.scs: Unmounted.
+00:03:59.673 : [dx11] Backbuffer released
+00:03:59.744 : [nvapi] NVAPI unloaded
+00:03:59.764 : [hashfs] base_cfg.scs: Unmounted.
+00:03:59.764 : [hashfs] locale.scs: Unmounted.
+00:03:59.764 : [hashfs] core.scs: Unmounted.
+00:03:59.764 : [hashfs] def.scs: Unmounted.
+00:03:59.765 : [hashfs] base_share.scs: Unmounted.
+00:03:59.765 : [hashfs] base_vehicle.scs: Unmounted.
+00:03:59.765 : [hashfs] base_map.scs: Unmounted.
+00:03:59.765 : [hashfs] base.scs: Unmounted.
+00:03:59.766 : [hashfs] effect.scs: Unmounted.
+00:04:00.153 : [sys] Process manager shutdown.

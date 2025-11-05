@@ -1,0 +1,92 @@
+Log: Log file open, 11/01/25 13:59:35
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12046
+Init: Compiled (64-bit - Shipping): Apr 29 2014 14:14:59
+Init: Changelist: 22533
+Init: Command line: -installed -seekfreeloadingpcconsole
+Init: Base directory: C:\Program Files (x86)\Steam\steamapps\common\Outlast\Binaries\Win64\
+Init: Executable: OLGame
+[0001.13] Log: Deleting old log file Launch-backup-2025.11.01-13.59.35.log
+[0001.13] Init: Computer: TUFAK
+[0001.14] Init: User: vadim
+[0001.14] Init: CPU Page size=4096, Processors=12
+[0001.14] Init: High frequency timer resolution =10.000000 MHz
+[0001.14] Init: Memory total: Physical=15.6GB (15GB approx) Pagefile=21.6GB Virtual=131072.0GB
+[0001.48] Log: Steam Client API initialized 1
+[0002.71] Log: Steam Game Server API initialized 1
+[0002.74] Init: Presizing for 33476 objects not considered by GC, pre-allocating 0 bytes.
+[0002.75] Init: Object subsystem initialized
+[0003.05] Log: CachePaths() took 0.22 Seconds
+[0006.79] Log: Using D3D9 device (0): NVIDIA GeForce RTX 3050 6GB Laptop GPU
+[0006.79] Log: Shader platform (RHI): PC-D3D-SM3
+[0006.96] Log: PhysX GPU Support: DISABLED
+[0015.22] Log: 60396 objects as part of root set at end of initial load.
+[0015.22] Log: 0 out of 0 bytes used by permanent object pool.
+[0015.22] Log: Initializing Engine...
+[0015.26] Log: Wwise(R) SDK Version 2013.2.3 Build 4833. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0019.26] Log: Initializing Steamworks
+[0019.27] Log: Logged in as 'Run >BAN40'
+[0019.36] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0019.36] Warning: Warning, Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0019.37] Warning: Warning, Failed to find object 'Class None.'
+[0019.38] Log: ## DLC owned: 1, steam installed: 0
+[0019.38] Log: DLC not installed.
+[0019.41] Log: LoadMap: Intro_Persistent?Name=Player?Team=255
+[0019.45] Warning: Warning, Failed to compile Material Instance Asylum_post_process.PostUber.PostUberNoise with Base DefaultMaterial for platform PC-D3D-SM3, Default Material will be used in game.
+[0019.45] Log: Game class is 'OLGame'
+[0019.46] Log: Primary PhysX scene will be in software.
+[0019.46] Log: Creating Primary PhysX Scene.
+[0019.48] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0019.48] Log: Bringing World Intro_Persistent.TheWorld up for play (0) at 2025.11.01-13.59.54
+[0019.48] Log: Bringing up level for play took: 0.019262
+[0019.49] Error: Can't start an online game that hasn't been created
+[0019.58] Error: StartLocalVoiceProcessing(): Device is currently owned by another user
+[0019.58] Log: ########### Finished loading level: 0.170728 seconds
+[0019.58] Log: Flushing async loaders.
+[0019.66] Log: Flushed async loaders.
+[0019.66] Log: Initializing Engine Completed
+[0022.35] Log: >>>>>>>>>>>>>> Initial startup: 22.35s <<<<<<<<<<<<<<<
+[0022.36] Log: ActivateLevel mainmenugame 1 1 1
+[0022.36] Log: ### Applying resolution 1920 x 1200 (Fullscreen: yes)
+[0022.62] Log: Resizing to 1920x1200 (fullscreen)
+[0023.02] Log: No Cached BSP Physics Data Found Or Out Of Date - Cooking Now.
+[0023.02] Log: COOKEDPHYSICS: BSP 0.00 KB
+[0023.04] Log:  ### --- Resetting level mainmenugame
+[0023.35] Log: ## DLC owned: 1, steam installed: 0
+[0023.44] Log: ### UpdateProfileFromSystemSettings - Current resolution is SR_1920x1200 (1920 x 1200, fullscreen: yes)
+[0023.50] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0023.50] Warning: Warning, Failed to load 'Font None.Times New Roman': Failed to find object 'Font None.Times New Roman'
+[0023.78] Log:  ### --- Resetting level x_checkpoints
+[0027.41] Log: ## DLC owned: 1, steam installed: 0
+[0028.83] DevGameState: Resetting GameState
+[0030.47] Log: ## DLC owned: 1, steam installed: 0
+[0031.85] DevGameState: Resetting GameState
+[0032.85] Log: ## DLC owned: 1, steam installed: 0
+[0037.69] Log: ## DLC owned: 1, steam installed: 0
+[0042.44] Log: ## DLC owned: 1, steam installed: 0
+[0062.07] Log: ## DLC owned: 1, steam installed: 0
+[0067.08] Log: ## DLC owned: 1, steam installed: 0
+[0072.08] Log: ## DLC owned: 1, steam installed: 0
+[0075.36] DevGameState: Resetting GameState
+[0090.81] Log: ## DLC owned: 1, steam installed: 0
+[0094.70] Log: ## DLC owned: 1, steam installed: 0
+[0097.82] Log: ## DLC owned: 1, steam installed: 0
+[0099.18] Log: Closing by request
+[0099.18] Log: appRequestExit(0)
+[0099.21] Exit: Preparing to exit.
+[0099.28] Exit: Game engine shut down
+[0099.41] Exit: Windows client shut down
+[0099.43] Exit: XAudio2 Device shut down.
+[0099.47] Exit: AK Audio shut down.
+[0099.51] Exit: Object subsystem successfully closed.
+[0099.59] Log: Shutting down FaceFX...
+[0099.59] Log: FaceFX shutdown.
+[0099.63] Exit: Exiting.
+[0099.63] Log: Log file closed, 11/01/25 14:01:14
