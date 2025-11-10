@@ -191,51 +191,103 @@ viselica={
 
 }
 
-
-big_man="""
-░░░░░         (((((((((((BBBBBBBBBBBBBBBBBBBBBBBBB(((((((((((((         ░░░░
-░░         (((((((((BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB(((((((((        ░░
-░     ░▓▓▓▓▓((░▒BBB ▒BBB(▓▓░BlB▓▓▓▓▓BllB▓▓▓▓▓B(▒BBB ▓B ▒BBB(▓(((((░▓       
-      ░▓(((▒▒B░▒BB(▓▒B(▒░lll▓ l▓BlllllllB▓llB█B(▓llB▓▓B░▒BBB(█(((((██░      
-     (░█▓▓▓░(B░▒B(▓▒▒l▓ lllllll▓▓▓▓▓oooB▓lll▓B(▓l(▓░▓l░▒BBB(█(B((▓░░▓      
-    ((░▓(((░▒B░▒B▓(░▒l▒▒lllllol▓BoooooooB▓lol▓B(▓B▓((▓l░▒llBB█(BB░▒  ▒▒(    
-   (((░▓▒▓▓▓▒B░▓▓(l ▒ll░▓▒▓▓ll ▓▓▓▓▓lool▒░ool▓B(▓▓Bl(▓l ▒▒▓▓▓█(B ▓    █(((  
-  (((((    BBB((lllB(llll((Booo((((((oB(loooo(ll(oool(lB(((   ▓ ((BBB(((((  
- ((((((BBBBBllllllllllool░░Booooooooo(░(ooooooooo(░░lollllllllllBBBBBB((((((
-((((((BBBBBBl▓▓▒▒▒▒▒▒▒▒▒▓▒▒▓▒▒▒░░░░░▒▓▒▓▒░░░░▒▒▒▒▓▒▓▓▒▒▒▒▒▒▒▒▒▓░lBBBBBB(((((
-(((((BBBBBBllBllllllllll░▓▓▓looooooooB▓▒oooooooo(▓▓▓(lllllllllllllBBBBBB((((
-(((((BBBBBBBllllllloooooo░ ░ooocccccc ▓(ccccccool░░ oooooollllllBBBBBBB(((((
-(((((BBBBBBBllllllloooooo▒ ▒  occccco▓█▓▓░occcccc░(  oooooollllllBBBBB(((((((
-(((((BBBBBBBBlllllooooooo░ (▒occccc(▓   ▓occcccB░(░ oooooolllllBBBBB((((((((
-(((BBBBBBBBllllllooooooooB▒  ░(occcl▒▒░▒▒occcl  ( ▒oooooolllllllBBBBB(((((( 
-(((BBBBBBBllllllloooooooooo░▒ (BB((cB▓▓▓oo((BB(░▒ ooooolllllllllBBBBBB((((((
-(((BBBBBBBlllllloooooooooococ░▒░ ▒▓▒░░ ▒▒▓▒▓ ▓▒ occocoollllllllllBBBBBB(((((
-(((BBBBBBBlllllloooooooooccccco ▓▓▓▓ol(lo▓▓▓▓ ccccccoollllllllllllBBBBBB((((
-(((BBBBBBBllllllooooooooocccccccc▒▒Bll(ll(▓░ccccccccollllllllllllBBBBBBBB(((
-(((BBBBBBBlllllloooooooooccccccccB▓▒ (((░▒█occccccooolllllllllllllBBBBBBBB((
-(((BBBBBBBlllllloooooooooccccccccc▒ ( ( (░░ccccccoooollllllllllllBBBBBBBB(((
-(((BBBBBBBBllllloooooooooooccccccc ▒ (B(░▒BccccccooollllllllllllBBBBBBBB((((
-(((BBBBBBBBllllloooooooooooocccccc ▒░░░░░▓BccccoooolllllllllllllBBBBBBBB((((
-(((((BBBBBBBllllloooooooooooocccco▓▓▓▓▒▓▓▓▒cccoooolllllllllllllllBBBBBBB((((
-((((((BBBBBBBllllloooooooooooooooB▓▒▓▓█▓▓▒▓oooooollllllllllllllllBBBBBB(((((
-((((((((BBBBBBlllllooooooooooooooB▒( ███((▒oooolllllllllllllllBBBBBBB(((((((
-((((((((BBBBBBlllllllooooooooooooB░((▒l▓((▒loollllllllllllllllBBBBBB((((((((
-(((((((((BBBBBlllllllloooooooooooB░( ▒l▓((▒loooollllllllllllllBBBBB(((((((((
- ((((((((BBBBBBllllllllooooooooooB▒  ▒l▒( ▒lololllllllllllllllBBBB((((((((((
-  (((((((BBBBBBBlllllllllllooooooo▒░ ▒l▒ ░ oollllllllllllllllBBBBBB(((((((( 
-   (((((((BBBBBBBlllllllllllllllllB▓▒▒l▓▒▓lllllllllllllllllBBBBBBB(((((((   
-    (((((((BBBBBBBBlllllllllllllll▓▒▒▒l▓▒▒░llllllllllllllBBBBBB(((((((((    
-     ((((((((BBBBBBBBBBllllllllll(▓░▒▓B▓░░▓llllllllllllBBBBBBB(((((((((     
-       ((((((((BBBBBBBBBBBllllllll▓░▒▓B▓░░░llllllllBBBBBBBBBB(((((((((      
-       (((((((((((BBBBBBBBBBBBBBBBB▓▒ B░▒▒BBBBBBBBBBBBBBBB((((((((((        
-░        ((((((((((((BBBBBBBBBBBBBB░▒░B▒▒ BBBBBBBBBBBB(((((((((((           
-░░░         ((((((((((((((BBBBBBBBB░▒▒B▓▒ BBBBBBBBB((((((((((((             
-░░░░░░          ((((((((((((((((BB░▒░▒(▓░▒ BB((((((((((((((                ░
-░░░░░░░             (((((((((((((((▓▓ (░▓▒((((((((((((((((              ░░░░
-░░░░░░░░                   (((((((((((((((((((((((                 ░░░░░░░░░
-░░░░░░░░░░░                      (((((((((                        ░░░░░░░░░░
+def window():
+  big_man=f"""
+░░░░░                                                                   ░░░░                  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░ 
+░░                                                                        ░░                  ░░ Авторы: FFWASD, VERAL0M, Maslo   ░░
+░     ░▓▓▓▓▓  ░▒    ▒    ▓▓░   ▓▓▓▓▓    ▓▓▓▓▓  ▒    ▓  ▒    ▓     ░▓                          ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+      ░▓   ▒▒ ░▒   ▓▒  ▒░   ▓  ▓         ▓   █  ▓   ▓▓ ░▒    █     ██░      
+      ░█▓▓▓░  ░▒  ▓▒▒ ▓        ▓▓▓▓▓    ▓   ▓  ▓  ▓░▓ ░▒    █    ▓░░▓                  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+      ░▓   ░▒ ░▒ ▓ ░▒ ▒▒       ▓         ▓   ▓  ▓ ▓  ▓ ░▒    █   ░▒  ▒▒                ░░                   Правила игры                  ░░
+      ░▓▒▓▓▓▒ ░▓▓   ▒  ░▓▒▓▓   ▓▓▓▓▓    ▒░   ▓  ▓▓   ▓  ▒▒▓▓▓█   ▓    █                ░░                                                 ░░
+                                                              ▓                        ░░  Игрок должен отгадать слово буква за буквой    ░░
+                         ░░           ░           ░░                                   ░░  Ему даётся 6 попыток, каждая неудачная попытка ░░
+             ▓▓▒▒▒▒▒▒▒▒▒▓▒▒▓▒▒▒░░░░░▒▓▒▓▒░░░░▒▒▒▒▓▒▓▓▒▒▒▒▒▒▒▒▒▓░                       ░░  пририсовывает деталь изображения виселицы.     ░░
+                        ░▓▓▓          ▓▒         ▓▓▓                                   ░░                                                 ░░
+                         ░ ░          ▓          ░░                                    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                         ▒ ▒         ▓█▓▓░       ░
+                         ░  ▒       ▓   ▓       ░ ░
+                          ▒  ░      ▒▒░▒▒         ▒
+                           ░▒        ▓▓▓       ░▒
+                             ░▒░ ▒▓▒░░ ▒▒▓▒▓ ▓▒
+                                ▓▓▓▓     ▓▓▓▓
+                                 ▒▒       ▓░
+                                  ▓▒    ░▒█
+                                  ▒      ░░
+                                   ▒    ░▒
+                                   ▒░░░░░▓
+                                  ▓▓▓▓▒▓▓▓▒
+                                  ▓▒▓▓█▓▓▒▓
+                                  ▒  ███  ▒
+                                  ░  ▒ ▓  ▒
+                                  ░  ▒ ▓  ▒
+                                  ▒  ▒ ▒  ▒                                                     ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+                                  ▒░ ▒ ▒ ░                                                      ░░░░       1. Животные          ░░░░
+                                   ▓▒▒ ▓▒▓                                                      ░░░░       2. Еда               ░░░░
+                                  ▓▒▒▒ ▓▒▒░                                                     ░░░░       3. Спорт             ░░░░
+                                  ▓░▒▓ ▓░░▓                                                     ░░░░       4. География         ░░░░
+                                  ▓░▒▓ ▓░░░                                                     ░░░░     Выберите категорию     ░░░░
+                                   ▓▒  ░▒▒                                                      ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░                                  ░▒░ ▒▒
+░░░                                ░▒▒ ▓▒
+░░░░░░                            ░▒░▒ ▓░▒                                 ░
+░░░░░░░                            ▓▓  ░▓▒                              ░░░░
+░░░░░░░░                                                           ░░░░░░░░░
+░░░░░░░░░░░                                                       ░░░░░░░░░░
 ░░░░░░░░░░░░░░░░                                            ░░░░░░░░░░░░░░░░
 
-"""
-litle_man=litle_man.replace('B', " ").replace("(", " ").replace('l', " ").replace('o', ' ').replace('c', " ")
-print(litle_man)
+
+  """
+# litle_man=litle_man.replace('B', " ").replace("(", " ").replace('l', " ").replace('o', ' ').replace('c', " ")
+# print(litle_man)
+
+  print(big_man)
+
+
+
+# big_man="""
+# ░░░░░         (((((((((((BBBBBBBBBBBBBBBBBBBBBBBBB(((((((((((((         ░░░░
+# ░░         (((((((((BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB(((((((((        ░░
+# ░     ░▓▓▓▓▓((░▒BBB ▒BBB(▓▓░BlB▓▓▓▓▓BllB▓▓▓▓▓B(▒BBB ▓B ▒BBB(▓(((((░▓       
+#       ░▓(((▒▒B░▒BB(▓▒B(▒░lll▓ l▓BlllllllB▓llB█B(▓llB▓▓B░▒BBB(█(((((██░      
+#      (░█▓▓▓░(B░▒B(▓▒▒l▓ lllllll▓▓▓▓▓oooB▓lll▓B(▓l(▓░▓l░▒BBB(█(B((▓░░▓      
+#     ((░▓(((░▒B░▒B▓(░▒l▒▒lllllol▓BoooooooB▓lol▓B(▓B▓((▓l░▒llBB█(BB░▒  ▒▒(    
+#    (((░▓▒▓▓▓▒B░▓▓(l ▒ll░▓▒▓▓ll ▓▓▓▓▓lool▒░ool▓B(▓▓Bl(▓l ▒▒▓▓▓█(B ▓    █(((  
+#   (((((    BBB((lllB(llll((Booo((((((oB(loooo(ll(oool(lB(((   ▓ ((BBB(((((  
+#  ((((((BBBBBllllllllllool░░Booooooooo(░(ooooooooo(░░lollllllllllBBBBBB((((((
+# ((((((BBBBBBl▓▓▒▒▒▒▒▒▒▒▒▓▒▒▓▒▒▒░░░░░▒▓▒▓▒░░░░▒▒▒▒▓▒▓▓▒▒▒▒▒▒▒▒▒▓░lBBBBBB(((((
+# (((((BBBBBBllBllllllllll░▓▓▓looooooooB▓▒oooooooo(▓▓▓(lllllllllllllBBBBBB((((
+# (((((BBBBBBBllllllloooooo░ ░ooocccccc ▓(ccccccool░░ oooooollllllBBBBBBB(((((
+# (((((BBBBBBBllllllloooooo▒ ▒  occccco▓█▓▓░occcccc░(  oooooollllllBBBBB(((((((
+# (((((BBBBBBBBlllllooooooo░ (▒occccc(▓   ▓occcccB░(░ oooooolllllBBBBB((((((((
+# (((BBBBBBBBllllllooooooooB▒  ░(occcl▒▒░▒▒occcl  ( ▒oooooolllllllBBBBB(((((( 
+# (((BBBBBBBllllllloooooooooo░▒ (BB((cB▓▓▓oo((BB(░▒ ooooolllllllllBBBBBB((((((
+# (((BBBBBBBlllllloooooooooococ░▒░ ▒▓▒░░ ▒▒▓▒▓ ▓▒ occocoollllllllllBBBBBB(((((
+# (((BBBBBBBlllllloooooooooccccco ▓▓▓▓ol(lo▓▓▓▓ ccccccoollllllllllllBBBBBB((((
+# (((BBBBBBBllllllooooooooocccccccc▒▒Bll(ll(▓░ccccccccollllllllllllBBBBBBBB(((
+# (((BBBBBBBlllllloooooooooccccccccB▓▒ (((░▒█occccccooolllllllllllllBBBBBBBB((
+# (((BBBBBBBlllllloooooooooccccccccc▒ ( ( (░░ccccccoooollllllllllllBBBBBBBB(((
+# (((BBBBBBBBllllloooooooooooccccccc ▒ (B(░▒BccccccooollllllllllllBBBBBBBB((((
+# (((BBBBBBBBllllloooooooooooocccccc ▒░░░░░▓BccccoooolllllllllllllBBBBBBBB((((
+# (((((BBBBBBBllllloooooooooooocccco▓▓▓▓▒▓▓▓▒cccoooolllllllllllllllBBBBBBB((((
+# ((((((BBBBBBBllllloooooooooooooooB▓▒▓▓█▓▓▒▓oooooollllllllllllllllBBBBBB(((((
+# ((((((((BBBBBBlllllooooooooooooooB▒( ███((▒oooolllllllllllllllBBBBBBB(((((((
+# ((((((((BBBBBBlllllllooooooooooooB░((▒l▓((▒loollllllllllllllllBBBBBB((((((((
+# (((((((((BBBBBlllllllloooooooooooB░( ▒l▓((▒loooollllllllllllllBBBBB(((((((((
+#  ((((((((BBBBBBllllllllooooooooooB▒  ▒l▒( ▒lololllllllllllllllBBBB((((((((((
+#   (((((((BBBBBBBlllllllllllooooooo▒░ ▒l▒ ░ oollllllllllllllllBBBBBB(((((((( 
+#    (((((((BBBBBBBlllllllllllllllllB▓▒▒l▓▒▓lllllllllllllllllBBBBBBB(((((((   
+#     (((((((BBBBBBBBlllllllllllllll▓▒▒▒l▓▒▒░llllllllllllllBBBBBB(((((((((    
+#      ((((((((BBBBBBBBBBllllllllll(▓░▒▓B▓░░▓llllllllllllBBBBBBB(((((((((     
+#        ((((((((BBBBBBBBBBBllllllll▓░▒▓B▓░░░llllllllBBBBBBBBBB(((((((((      
+#        (((((((((((BBBBBBBBBBBBBBBBB▓▒ B░▒▒BBBBBBBBBBBBBBBB((((((((((        
+# ░        ((((((((((((BBBBBBBBBBBBBB░▒░B▒▒ BBBBBBBBBBBB(((((((((((           
+# ░░░         ((((((((((((((BBBBBBBBB░▒▒B▓▒ BBBBBBBBB((((((((((((             
+# ░░░░░░          ((((((((((((((((BB░▒░▒(▓░▒ BB((((((((((((((                ░
+# ░░░░░░░             (((((((((((((((▓▓ (░▓▒((((((((((((((((              ░░░░
+# ░░░░░░░░                   (((((((((((((((((((((((                 ░░░░░░░░░
+# ░░░░░░░░░░░                      (((((((((                        ░░░░░░░░░░
+# ░░░░░░░░░░░░░░░░                                            ░░░░░░░░░░░░░░░░
+
+# """
+

@@ -1,5 +1,6 @@
 import os, random
-from human_image import viselica
+from human_image import viselica, window
+from secrets_mod import photo
 
 def clear_terminal():
     if os.name == 'nt':
@@ -7,6 +8,8 @@ def clear_terminal():
     else:
         os.system('clear')
 
+
+   
 
 
 def create_viselica(mistakes):
@@ -65,14 +68,24 @@ def game():
     food=["яблоко", "банан", "пюре", "котлета", "стейк", "ананас", "мороженое", "капуста", "картофель", "помидор"]
     sport=["мяч", "футбол", "лыжи", "баскетбол", "бита", "тачдаун", "пас", "кёрлинг", "волейбол", "клюшка"]
     geography=["россия", "пермь", "казань", "америка", "шотландия", "эдинбург", "владивосток", "германия", "франция", "москва"]
-
-    print("1. Животные \n2. Еда \n3. Спорт \n4. География")
+    
+    window()
+    # print("1. Животные \n2. Еда \n3. Спорт \n4. География")
     used_letters=[]
     kateg=int(input("Выберите категорию: "))
     attempt=1
     mistakes=0
 
+
+    
+
     match kateg:
+        case 0: 
+            
+            mistakes=7
+            word=''
+            clear_terminal()
+
         case 1:
             word=random.choice(animals)
         case 2:
@@ -81,15 +94,25 @@ def game():
             word=random.choice(sport)
         case 4:
             word=random.choice(geography)
+        case 18:
+            mistakes=18
+            word=''
+            
+            
+
+        case _:
+            game()
+            
+            
 
     guess_word="_"*len(word)
 
     while(mistakes<6 and guess_word!=word):
         clear_terminal()
-        print(word)
+        # print(word) #загаданное слово
         print(create_viselica(mistakes))
-        print(f"Попытка: {attempt}")
-        print(f"Ошибки: {mistakes}")
+        print(f"Попытка: {attempt}🙈")
+        print(f"Ошибки: {mistakes}💩")
         print(guess_word)
         letter=str(input("Введите букву: "))
         check_letter(letter)
@@ -100,20 +123,36 @@ def game():
     if mistakes==6:
         clear_terminal()
         print(create_viselica(mistakes))
-        print("Вы проиграли")
+        print("Вы проиграли🤮🤡👎")
         print(f"Количество попыток: {attempt}")
         play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
         if play_again=="да":
             game()
         else:
             print("Будем ждать снова")
+    elif mistakes==7:
+        clear_terminal()
+        print("Будем ждать снова")
+    elif mistakes==18:
+
+        photo()
+        
+        
+        
+        
     else:
         clear_terminal()
         print(create_viselica(mistakes))
-        print(f"Поздравляем, вы угадали слово: ")
+        print(f"Поздравляем, вы угадали слово❤️😍: ")
         print(f"Слово угадано с {attempt} попытки")
-        print(f"Вы ошиблись {mistakes} раз")
+        print(f"Вы ошиблись {mistakes} раз👻")
+        play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
+        if play_again=="да":
+            game()
+        else:
+            print("Будем ждать снова")
 
 
 if __name__=="__main__":
+    clear_terminal()
     game()
