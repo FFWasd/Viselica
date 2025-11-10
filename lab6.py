@@ -125,6 +125,7 @@ def game():
         print(create_viselica(mistakes))
         print("Вы проиграли🤮🤡👎")
         print(f"Количество попыток: {attempt}")
+        print(f"Загадонное слово: {word}")
         play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
         if play_again=="да":
             game()
