@@ -1,4 +1,4 @@
-import os, random
+import os, random, time
 from human_image import viselica, window
 from secrets_mod import photo
 
@@ -74,6 +74,7 @@ def check_letter(letter):
 def play_again_check():
     play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
     if play_again=="да":
+        clear_terminal()
         game()
     elif play_again=="нет":
         print("Будем ждать снова")
@@ -94,7 +95,19 @@ def game():
     kateg=int(input("Выберите категорию: "))
     attempt=1
     mistakes=0
-    
+
+    print("\nВыберите режим:")
+    print("1 — Обычный")
+    print("2 — На время")
+    mode = input("Введите номер режима: ").strip()
+
+    if mode == "2":
+        timed_mode = True
+        total_time = 60  # можно поменять на другое значение
+        start_time = time.time()
+    else:
+        timed_mode = False
+
     match kateg:
         case 0: 
             
@@ -124,11 +137,20 @@ def game():
     guess_word="_"*len(word)
 
     while(mistakes<6 and guess_word!=word):
+        if timed_mode:
+            elapsed = time.time() - start_time
+            remaining = int(total_time - elapsed)
+            if remaining <= 0:
+                clear_terminal()
+                print("⏰ Время вышло! Вы не успели угадать слово.")
+                print(f"Слово было: {word}")
+                play_again_check()
         clear_terminal()
-        print(word) #загаданное слово
         print(create_viselica(mistakes))
         print(f"Попытка: {attempt}🙈")
         print(f"Ошибки: {mistakes}💩")
+        if timed_mode:
+            print(f"⏳ Осталось времени: {remaining} секунд")
         print(guess_word)
         letter=str(input("Введите букву: "))
         letter = check_letter(letter)
@@ -140,6 +162,7 @@ def game():
         print(create_viselica(mistakes))
         print("Вы проиграли🤮🤡👎")
         print(f"Количество попыток: {attempt}")
+        print(f"Загадонное слово: {word}")
         play_again_check()
     elif mistakes==7:
         clear_terminal()
