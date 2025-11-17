@@ -74,6 +74,7 @@ def check_letter(letter):
 def play_again_check():
     play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
     if play_again=="да":
+        clear_terminal()
         game()
     elif play_again=="нет":
         print("Будем ждать снова")
@@ -143,14 +144,8 @@ def game():
                 clear_terminal()
                 print("⏰ Время вышло! Вы не успели угадать слово.")
                 print(f"Слово было: {word}")
-                play_again = input("Хотите сыграть снова? (да/нет): ").strip().lower()
-                if play_again == "да":
-                    game()
-                else:
-                    print("Будем ждать снова")
-                return
+                play_again_check()
         clear_terminal()
-        print(word) #загаданное слово
         print(create_viselica(mistakes))
         print(f"Попытка: {attempt}🙈")
         print(f"Ошибки: {mistakes}💩")
@@ -168,6 +163,7 @@ def game():
         print("Вы проиграли🤮🤡👎")
         print(f"Количество попыток: {attempt}")
         print(f"Загадонное слово: {word}")
+        play_again_check()
     elif mistakes==7:
         clear_terminal()
         print("Будем ждать снова")
