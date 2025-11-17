@@ -7,11 +7,7 @@ def clear_terminal():
         os.system('cls')
     else:
         os.system('clear')
-
-
    
-
-
 def create_viselica(mistakes):
     return viselica.get(mistakes)
 
@@ -35,42 +31,65 @@ def find_letter(word,letter,guess_word,mistakes):
 def check_letter(letter):
     letter=letter.lower()
 
-    if letter not in "ёйцукенгшщзхъфывапролджэячсмитьбю":
-        print("Поддреживается ввод только букв из русского алфавита")
-        clear_terminal()
-        print(create_viselica(mistakes))
-        print(f"Попытка: {attempt}")
-        print(f"Ошибки: {mistakes}")
-        print(guess_word)
-        print("Поддреживается ввод только букв из русского алфавита")
-        letter=str(input("Введите новую букву: "))
-        return check_letter(letter)
+    while True:
+        if len(letter)>1:
+            clear_terminal()
+            print(create_viselica(mistakes))
+            print(f"Попытка: {attempt}")
+            print(f"Ошибки: {mistakes}")
+            print(guess_word)
+            print("Необходимо ввести букву")
+            letter=str(input("Введите новую букву: ")).lower()
+            continue
+    
+        elif letter not in "ёйцукенгшщзхъфывапролджэячсмитьбю":
+            clear_terminal()
+            print(create_viselica(mistakes))
+            print(f"Попытка: {attempt}")
+            print(f"Ошибки: {mistakes}")
+            print(guess_word)
+            print("Поддреживается ввод только букв из русского алфавита")
+            letter=str(input("Введите новую букву: ")).lower()
+            continue
 
-    elif not letter in used_letters :
-        used_letters.append(letter)
-        clear_terminal()
-        print(create_viselica(mistakes))
-        print(f"Попытка: {attempt}")
-        print(f"Ошибки: {mistakes}")
 
+        elif letter in used_letters:
+            clear_terminal()
+            print(create_viselica(mistakes))
+            print(f"Попытка: {attempt}")
+            print(f"Ошибки: {mistakes}")
+            print(guess_word)
+            print("Эта буква уже была!!!")
+            letter=str(input("Введите новую букву: ")).lower()
+            continue
+
+        else :
+            used_letters.append(letter)
+            clear_terminal()
+            print(create_viselica(mistakes))
+            print(f"Попытка: {attempt}")
+            print(f"Ошибки: {mistakes}")
+            return letter
+
+def play_again_check():
+    play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
+    if play_again=="да":
+        game()
+    elif play_again=="нет":
+        print("Будем ждать снова")
     else:
-        clear_terminal()
-        print(create_viselica(mistakes))
-        print(f"Попытка: {attempt}")
-        print(f"Ошибки: {mistakes}")
-        print(guess_word)
-        print("Эта буква уже была!!!")
-        letter=str(input("Введите новую букву: "))
-        return check_letter(letter)
+        print("Введите да/нет")
+        play_again_check()
+
 def game():
-    global mistakes, attempt, used_letters, guess_word
+    global mistakes, attempt, used_letters, guess_word, word
     animals=["слон", "жираф", "бегемот", "аист", "кошка", "собака", "лев", "чайка", "карась", "хомяк"]
     food=["яблоко", "банан", "пюре", "котлета", "стейк", "ананас", "мороженое", "капуста", "картофель", "помидор"]
     sport=["мяч", "футбол", "лыжи", "баскетбол", "бита", "тачдаун", "пас", "кёрлинг", "волейбол", "клюшка"]
     geography=["россия", "пермь", "казань", "америка", "шотландия", "эдинбург", "владивосток", "германия", "франция", "москва"]
     
     window()
-    # print("1. Животные \n2. Еда \n3. Спорт \n4. География")
+    # print("1. Животные \n2. Еда \n3. Спорт \n4. География" \n0. Выход)
     used_letters=[]
     kateg=int(input("Выберите категорию: "))
     attempt=1
@@ -131,7 +150,7 @@ def game():
                     print("Будем ждать снова")
                 return
         clear_terminal()
-        # print(word) #загаданное слово
+        print(word) #загаданное слово
         print(create_viselica(mistakes))
         print(f"Попытка: {attempt}🙈")
         print(f"Ошибки: {mistakes}💩")
@@ -139,10 +158,9 @@ def game():
             print(f"⏳ Осталось времени: {remaining} секунд")
         print(guess_word)
         letter=str(input("Введите букву: "))
-        check_letter(letter)
+        letter = check_letter(letter)
         attempt+=1
         guess_word,mistakes=find_letter(word,letter,guess_word,mistakes)
-    
 
     if mistakes==6:
         clear_terminal()
@@ -150,11 +168,6 @@ def game():
         print("Вы проиграли🤮🤡👎")
         print(f"Количество попыток: {attempt}")
         print(f"Загадонное слово: {word}")
-        play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
-        if play_again=="да":
-            game()
-        else:
-            print("Будем ждать снова")
     elif mistakes==7:
         clear_terminal()
         print("Будем ждать снова")
@@ -171,11 +184,7 @@ def game():
         print(f"Поздравляем, вы угадали слово❤️😍: ")
         print(f"Слово угадано с {attempt} попытки")
         print(f"Вы ошиблись {mistakes} раз👻")
-        play_again=input(str("Хотите сыграть снова? (да/нет): ")).strip().lower()
-        if play_again=="да":
-            game()
-        else:
-            print("Будем ждать снова")
+        play_again_check()
 
 
 if __name__=="__main__":
